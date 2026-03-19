@@ -77,7 +77,7 @@ export default function Hero() {
           src='/images/gallery/ironman-final.jpg'
           alt='Dylan Cramer finishing Ironman'
           fill
-          className='object-cover object-[75%_25%] md:object-[70%_25%]'
+          className='object-cover object-[85%_25%] md:object-[70%_25%]'
           priority
           quality={90}
           sizes='100vw'

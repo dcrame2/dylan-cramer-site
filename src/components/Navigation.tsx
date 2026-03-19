@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
@@ -11,7 +12,14 @@ const navLinks = [
   { href: "#connect", label: "Connect" },
 ];
 
+function resolveHref(href: string, pathname: string) {
+  if (href.startsWith("/")) return href;
+  if (pathname === "/") return href;
+  return `/${href}`;
+}
+
 export default function Navigation() {
+  const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -34,7 +42,7 @@ export default function Navigation() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <a href="#" className="text-xl font-bold tracking-tight">
+          <a href="/" className="text-xl font-bold tracking-tight">
             <span className="text-red-500">DYLAN</span>
             <span className="text-white"> CRAMER</span>
           </a>
@@ -44,7 +52,7 @@ export default function Navigation() {
             {navLinks.map((link) => (
               <a
                 key={link.href}
-                href={link.href}
+                href={resolveHref(link.href, pathname)}
                 className="text-sm uppercase tracking-widest text-gray-400 hover:text-red-500 transition-colors duration-300"
               >
                 {link.label}
@@ -125,7 +133,7 @@ export default function Navigation() {
             {navLinks.map((link, i) => (
               <motion.a
                 key={link.href}
-                href={link.href}
+                href={resolveHref(link.href, pathname)}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
