@@ -77,7 +77,7 @@ export default function Hero() {
           src='/images/gallery/ironman-final.jpg'
           alt='Dylan Cramer finishing Ironman'
           fill
-          className='object-cover object-[70%_25%]'
+          className='object-cover object-[75%_25%] md:object-[70%_25%]'
           priority
           quality={90}
           sizes='100vw'
@@ -189,17 +189,20 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.6 }}
-          className='mt-12 flex flex-wrap gap-6'
+          className='mt-12 flex gap-3 md:gap-6'
         >
           {[
-            { number: '140.6', label: 'Miles / Ironman' },
-            { number: '100', label: 'Mile Ultra Finisher' },
-            { number: '13:54', label: 'Ironman PR' },
+            { number: '140.6', label: 'Ironman' },
+            { number: '100', label: 'Mile' },
+            { number: '50', label: 'Mile' },
           ].map((stat) => (
             <div
-              key={stat.label}
-              className='text-center bg-black/30 backdrop-blur-sm px-5 py-3 rounded-xl border border-white/5'
+              key={stat.number}
+              className='relative text-center bg-black/30 backdrop-blur-sm px-3 py-2 md:px-5 md:py-3 rounded-xl border border-white/5 flex-1'
             >
+              <svg className='absolute top-1.5 right-1.5 w-3 h-3 text-red-500' fill='none' viewBox='0 0 24 24' stroke='currentColor' strokeWidth={3}>
+                <path strokeLinecap='round' strokeLinejoin='round' d='M5 13l4 4L19 7' />
+              </svg>
               <div className='text-2xl md:text-3xl font-black text-red-500'>
                 {stat.number}
               </div>
