@@ -25,9 +25,19 @@ const faqs = [
       "Ironman Wisconsin (13:54:29), Tunnel Hill 100 mile ultra, Chicago Triathlon, multiple 50-milers, and I'm currently training for Ironman Lake Placid in July 2026.",
   },
   {
+    question: "Do you build websites?",
+    answer:
+      "Yes! I build modern, fast websites for creators, athletes, and small businesses. $500 for a custom build, $99/month for ongoing maintenance and updates. Email dcrame2@gmail.com to get started.",
+  },
+  {
+    question: "What's included in the $500 website build?",
+    answer:
+      "Custom design, mobile responsive, SEO optimized, and deployed live. I build with Next.js and modern tools so your site is fast and looks great on every device.",
+  },
+  {
     question: "Do you do coaching or consulting?",
     answer:
-      "Not currently offering formal coaching, but I share everything I learn about training, building, and creating through my content.",
+      "Not currently offering formal coaching, but I share everything I learn about training, building, and creating through my content. Check out the free resources section for guides.",
   },
 ];
 

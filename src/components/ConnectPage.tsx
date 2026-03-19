@@ -66,12 +66,12 @@ const workItems = [
     ),
   },
   {
-    title: "Speaking",
+    title: "Website Builds",
     description:
-      "Available for podcasts, panels, and events on topics like endurance mindset, content creation, and building apps.",
+      "Need a website? I build modern, fast websites for creators and small businesses. $500 build + $99/mo maintenance.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4M12 4a3 3 0 00-3 3v4a3 3 0 006 0V7a3 3 0 00-3-3z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
       </svg>
     ),
   },
