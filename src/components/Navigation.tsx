@@ -164,16 +164,16 @@ export default function Navigation() {
           >
             <div className="space-y-1.5">
               <motion.span
-                animate={mobileOpen ? { rotate: 45, y: 6 } : { rotate: 0, y: 0 }}
-                className="block w-6 h-0.5 bg-white"
+                animate={mobileOpen ? { rotate: 45, y: 8 } : { rotate: 0, y: 0 }}
+                className="block w-6 h-0.5 bg-white origin-center"
               />
               <motion.span
                 animate={mobileOpen ? { opacity: 0 } : { opacity: 1 }}
                 className="block w-6 h-0.5 bg-white"
               />
               <motion.span
-                animate={mobileOpen ? { rotate: -45, y: -6 } : { rotate: 0, y: 0 }}
-                className="block w-6 h-0.5 bg-white"
+                animate={mobileOpen ? { rotate: -45, y: -8 } : { rotate: 0, y: 0 }}
+                className="block w-6 h-0.5 bg-white origin-center"
               />
             </div>
           </button>
