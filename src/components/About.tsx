@@ -21,76 +21,70 @@ export default function About() {
       <div className="absolute top-40 right-0 w-80 h-80 bg-red-600/5 rounded-full blur-3xl" />
 
       <div className="max-w-7xl mx-auto">
-        {/* Section header */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8 }}
-          className="mb-16"
-        >
-          <p className="text-xs uppercase tracking-[0.4em] text-red-500 font-mono mb-4">
-            The Story
-          </p>
-          <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tight">
-            Built Different.
-            <br />
-            <span className="text-red-500">Never Enough.</span>
-          </h2>
-        </motion.div>
-
-        {/* Two column: text left, image right — both vertically centered */}
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-20">
-          {/* Left: Bio text */}
+        {/* Two column: header + text left, image right */}
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start mb-20">
+          {/* Left: Header + Bio text */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="space-y-6"
           >
-            <p className="text-lg text-gray-300 leading-relaxed">
-              I&apos;m Dylan Cramer — a software developer by day who refuses to sit still.
-              When I&apos;m not writing code or building my app{" "}
-              <a href="#instacal" className="text-red-500 hover:underline">
-                InstaCal
-              </a>
-              , you&apos;ll find me training for my next Ironman, running ultras through
-              the night, or swimming in open water before sunrise.
+            {/* Section header — inside the left column now */}
+            <p className="text-xs uppercase tracking-[0.4em] text-red-500 font-mono mb-4">
+              The Story
             </p>
-            <p className="text-lg text-gray-300 leading-relaxed">
-              I finished <span className="text-white font-semibold">Ironman Wisconsin</span> in
-              13:54:29, ran <span className="text-white font-semibold">100 miles at Tunnel Hill</span>,
-              and now I&apos;m training for{" "}
-              <span className="text-red-500 font-semibold">Ironman Lake Placid</span> in July 2026.
-              I also like to party, go to music festivals, and live life to the fullest.
-            </p>
-            <p className="text-lg text-gray-300 leading-relaxed">
-              I document the whole journey — the 4am swims, the 100-mile weeks, the
-              app development grind, the wins, and the suffering. If you&apos;re into
-              pushing limits and doing the most with the time you have, welcome.
-            </p>
+            <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tight mb-10">
+              Built Different.
+              <br />
+              <span className="text-red-500">Never Enough.</span>
+            </h2>
 
-            {/* Tags */}
-            <div className="flex flex-wrap gap-2 pt-2">
-              {[
-                "Ironman",
-                "Ultrarunning",
-                "Open Water",
-                "Software Dev",
-                "App Founder",
-                "Content Creator",
-                "Chicago",
-              ].map((tag) => (
-                <span
-                  key={tag}
-                  className="px-3 py-1 text-xs uppercase tracking-wider border border-red-900/40 text-red-400 bg-red-900/10 rounded-lg"
-                >
-                  {tag}
-                </span>
-              ))}
+            <div className="space-y-6">
+              <p className="text-lg text-gray-300 leading-relaxed">
+                I&apos;m Dylan Cramer — a software developer by day who refuses to sit still.
+                When I&apos;m not writing code or building my app{" "}
+                <a href="/instacal" className="text-red-500 hover:underline">
+                  InstaCal
+                </a>
+                , you&apos;ll find me training for my next Ironman, running ultras through
+                the night, or swimming in open water before sunrise.
+              </p>
+              <p className="text-lg text-gray-300 leading-relaxed">
+                I finished <span className="text-white font-semibold">Ironman Wisconsin</span> in
+                13:54:29, ran <span className="text-white font-semibold">100 miles at Tunnel Hill</span>,
+                and now I&apos;m training for{" "}
+                <span className="text-red-500 font-semibold">Ironman Lake Placid</span> in July 2026.
+                I also like to party, go to music festivals, and live life to the fullest.
+              </p>
+              <p className="text-lg text-gray-300 leading-relaxed">
+                I document the whole journey — the 4am swims, the 100-mile weeks, the
+                app development grind, the wins, and the suffering. If you&apos;re into
+                pushing limits and doing the most with the time you have, welcome.
+              </p>
+
+              {/* Tags */}
+              <div className="flex flex-wrap gap-2 pt-2">
+                {[
+                  "Ironman",
+                  "Ultrarunning",
+                  "Open Water",
+                  "Software Dev",
+                  "App Founder",
+                  "Content Creator",
+                  "Chicago",
+                ].map((tag) => (
+                  <span
+                    key={tag}
+                    className="px-3 py-1 text-xs uppercase tracking-wider border border-red-900/40 text-red-400 bg-red-900/10 rounded-lg"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
           </motion.div>
 
-          {/* Right: Feature image */}
+          {/* Right: Feature image — aligned to top */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
@@ -142,6 +136,19 @@ export default function About() {
                 <p className="text-xs text-gray-500 mt-1">{milestone.detail}</p>
               </motion.div>
             ))}
+          </div>
+
+          {/* CTA */}
+          <div className="mt-10 text-center">
+            <a
+              href="/about"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-red-600 text-white font-bold uppercase tracking-wider text-sm hover:bg-red-500 transition-all rounded-xl"
+            >
+              More About Me
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
           </div>
         </motion.div>
       </div>

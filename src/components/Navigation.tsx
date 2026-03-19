@@ -5,11 +5,11 @@ import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { href: "#about", label: "About" },
+  { href: "/about", label: "About" },
   { href: "/gallery", label: "Gallery" },
-  { href: "#instacal", label: "InstaCal" },
-  { href: "#content", label: "Content" },
-  { href: "#connect", label: "Connect" },
+  { href: "/instacal", label: "InstaCal" },
+  { href: "/content", label: "Content" },
+  { href: "/connect", label: "Connect" },
 ];
 
 function resolveHref(href: string, pathname: string) {

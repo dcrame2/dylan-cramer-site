@@ -65,7 +65,7 @@ export default function Footer() {
             whileInView={{ opacity: 1 }}
             className="text-xs text-gray-700 font-mono"
           >
-            &copy; {new Date().getFullYear()} Dylan Cramer. Go one more.
+            &copy; {new Date().getFullYear()} Dylan Cramer.
           </motion.p>
         </div>
       </div>

@@ -116,6 +116,24 @@ export default function ConnectSection() {
               </motion.a>
             ))}
           </motion.div>
+
+          {/* More link */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={isInView ? { opacity: 1 } : {}}
+            transition={{ delay: 1.2 }}
+            className="mt-10"
+          >
+            <a
+              href="/connect"
+              className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-gray-400 hover:text-red-500 transition-colors font-mono"
+            >
+              More Ways to Connect
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
+          </motion.div>
         </motion.div>
       </div>
     </section>

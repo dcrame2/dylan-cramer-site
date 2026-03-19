@@ -95,20 +95,7 @@ export default async function Image() {
             Ironman Athlete &bull; Ultrarunner &bull; Creator
           </div>
 
-          {/* Go One More */}
-          <div
-            style={{
-              fontSize: "28px",
-              fontWeight: 900,
-              color: "#dc2626",
-              letterSpacing: "4px",
-              textTransform: "uppercase",
-              marginTop: "32px",
-              textShadow: "0 0 40px rgba(220,38,38,0.5)",
-            }}
-          >
-            GO ONE MORE
-          </div>
+
 
           {/* Stats row */}
           <div

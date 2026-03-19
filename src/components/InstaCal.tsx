@@ -155,14 +155,22 @@ export default function InstaCal() {
               </a>
             </div>
 
-            <a
-              href="https://theinstacal.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-4 text-xs text-red-500 hover:text-red-400 uppercase tracking-widest font-mono transition-colors"
-            >
-              theinstacal.app &rarr;
-            </a>
+            <div className="flex items-center gap-4 mt-4">
+              <a
+                href="/instacal"
+                className="text-xs text-red-500 hover:text-red-400 uppercase tracking-widest font-mono transition-colors"
+              >
+                Learn More &rarr;
+              </a>
+              <a
+                href="https://theinstacal.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-gray-500 hover:text-gray-400 uppercase tracking-widest font-mono transition-colors"
+              >
+                theinstacal.app &rarr;
+              </a>
+            </div>
           </motion.div>
         </div>
       </div>

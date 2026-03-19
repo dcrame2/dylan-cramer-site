@@ -5,6 +5,7 @@ import Gallery from "@/components/Gallery";
 import InstaCal from "@/components/InstaCal";
 import ContentSection from "@/components/ContentSection";
 import ConnectSection from "@/components/ConnectSection";
+import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <InstaCal />
       <ContentSection />
       <ConnectSection />
+      <FAQ />
       <Footer />
     </main>
   );
