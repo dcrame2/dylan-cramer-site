@@ -147,7 +147,7 @@ export default function ContentSection() {
           </div>
         </motion.div>
 
-        {/* Reel/TikTok embed placeholder */}
+        {/* Latest Content — Instagram & TikTok Embeds */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -157,27 +157,44 @@ export default function ContentSection() {
           <p className="text-xs uppercase tracking-[0.3em] text-gray-500 font-mono mb-6">
             Latest Content
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[1, 2, 3, 4].map((i) => (
-              <a
+          <div className="scroll-gallery overflow-x-auto flex gap-4 pb-4 snap-x snap-mandatory">
+            {[
+              { type: "instagram", url: "https://www.instagram.com/p/DWE-O9miVsM/" },
+              { type: "tiktok", id: "7574802270446030135" },
+              { type: "instagram", url: "https://www.instagram.com/p/DV_iwkNRJ9q/" },
+              { type: "instagram", url: "https://www.instagram.com/p/DQ4Wd8IiDQB/" },
+              { type: "tiktok", id: "7575165481644985613" },
+              { type: "instagram", url: "https://www.instagram.com/p/DVosetukSIR/" },
+              { type: "instagram", url: "https://www.instagram.com/p/DVeVkGAEfkz/" },
+              { type: "tiktok", id: "7596418914360331534" },
+              { type: "instagram", url: "https://www.instagram.com/p/DTf0KIwkbto/" },
+              { type: "instagram", url: "https://www.instagram.com/p/DVhrg8Jkdgt/" },
+            ].map((item, i) => (
+              <div
                 key={i}
-                href="https://www.instagram.com/cramerdyl/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative aspect-[9/16] bg-white/5 border border-white/10 overflow-hidden hover:border-red-600/40 transition-all rounded-2xl"
+                className="flex-shrink-0 w-[320px] snap-start rounded-2xl overflow-hidden border border-white/10 bg-white/5"
               >
-                <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-600 group-hover:text-red-500 transition-colors">
-                  <svg className="w-10 h-10 mb-2" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                  <p className="text-xs uppercase tracking-widest">Reel {i}</p>
-                </div>
-              </a>
+                {item.type === "instagram" ? (
+                  <iframe
+                    src={`${item.url}embed`}
+                    className="w-full h-[560px] border-0"
+                    allowTransparency
+                    allow="encrypted-media"
+                    loading="lazy"
+                    title={`Instagram post ${i + 1}`}
+                  />
+                ) : (
+                  <iframe
+                    src={`https://www.tiktok.com/embed/v2/${item.id}`}
+                    className="w-full h-[560px] border-0"
+                    allow="encrypted-media"
+                    loading="lazy"
+                    title={`TikTok video ${i + 1}`}
+                  />
+                )}
+              </div>
             ))}
           </div>
-          <p className="text-xs text-gray-600 mt-4 text-center">
-            Connect your Instagram & TikTok to auto-populate latest content
-          </p>
         </motion.div>
       </div>
     </section>
