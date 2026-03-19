@@ -107,12 +107,13 @@ export default function ContentSection() {
             ].map((item, i) => (
               <div
                 key={i}
-                className="flex-shrink-0 w-[320px] snap-start rounded-2xl overflow-hidden border border-white/10 bg-white/5"
+                className="flex-shrink-0 w-[320px] h-[580px] snap-start rounded-2xl overflow-hidden border border-white/10 bg-white/5"
               >
                 {item.type === "instagram" ? (
                   <iframe
                     src={`${item.url}embed`}
-                    className="w-full h-[560px] border-0"
+                    className="w-[320px] h-[580px] border-0"
+                    scrolling="no"
                     allowTransparency
                     allow="encrypted-media"
                     loading="lazy"
@@ -121,7 +122,8 @@ export default function ContentSection() {
                 ) : (
                   <iframe
                     src={`https://www.tiktok.com/embed/v2/${item.id}`}
-                    className="w-full h-[560px] border-0"
+                    className="w-[320px] h-[580px] border-0"
+                    scrolling="no"
                     allow="encrypted-media"
                     loading="lazy"
                     title={`TikTok video ${i + 1}`}
