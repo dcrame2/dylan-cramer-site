@@ -14,6 +14,12 @@ const navLinks = [
 
 const resourceLinks = [
   { href: "/resources/ironman-training-guide", label: "Ironman Training Guide" },
+  { href: "/resources/ultra-marathon-nutrition", label: "Ultra Nutrition Guide" },
+  { href: "/resources/9-to-5-ironman-training", label: "9-5 + Ironman Training" },
+  { href: "/resources/open-water-swimming-guide", label: "Open Water Swimming" },
+  { href: "/resources/long-distance-cycling-guide", label: "Long Distance Cycling" },
+  { href: "/resources/race-day-nutrition-strategy", label: "Race Day Nutrition" },
+  { href: "/resources/content-creation-for-athletes", label: "Content for Athletes" },
 ];
 
 export default function Navigation() {

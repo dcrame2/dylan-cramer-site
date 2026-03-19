@@ -21,9 +21,9 @@ const resources = [
     readTime: "18 min read",
     description:
       "How to fuel for 50K, 50-mile, and 100-mile ultramarathons. Real-world nutrition strategies that won't wreck your stomach.",
-    href: "#",
-    image: null,
-    available: false,
+    href: "/resources/ultra-marathon-nutrition",
+    image: "/images/gallery/tunnel-hill-finish.jpg",
+    available: true,
   },
   {
     title: "How to Balance a 9-5 and Ironman Training",
@@ -31,9 +31,39 @@ const resources = [
     readTime: "15 min read",
     description:
       "A realistic guide to fitting swim, bike, and run training around a full-time job. Schedules, sacrifices, and strategies that actually work.",
-    href: "#",
-    image: null,
-    available: false,
+    href: "/resources/9-to-5-ironman-training",
+    image: "/images/gallery/bike-capitol.jpg",
+    available: true,
+  },
+  {
+    title: "Open Water Swimming Guide",
+    category: "Swimming",
+    readTime: "18 min read",
+    description:
+      "From pool to open water — wetsuits, sighting, drafting, race starts, and everything you need to swim confidently in any body of water.",
+    href: "/resources/open-water-swimming-guide",
+    image: "/images/gallery/open-water-swim.jpg",
+    available: true,
+  },
+  {
+    title: "Long Distance Cycling Guide",
+    category: "Cycling",
+    readTime: "20 min read",
+    description:
+      "Build up to 100+ mile rides. Bike fit, pacing, nutrition on the bike, gear essentials, and training for the Ironman bike leg.",
+    href: "/resources/long-distance-cycling-guide",
+    image: "/images/gallery/bike-barn.jpg",
+    available: true,
+  },
+  {
+    title: "Race Day Nutrition Strategy",
+    category: "Nutrition",
+    readTime: "16 min read",
+    description:
+      "How to fuel during any endurance race. Calories per hour, gel timing, stomach training, and exact plans from Ironman and Tunnel Hill 100.",
+    href: "/resources/race-day-nutrition-strategy",
+    image: "/images/gallery/ultra-snack.jpg",
+    available: true,
   },
   {
     title: "Content Creation for Athletes",
@@ -41,9 +71,9 @@ const resources = [
     readTime: "12 min read",
     description:
       "How to document your athletic journey without it killing your training. Gear, workflow, and growing an audience as an endurance athlete.",
-    href: "#",
-    image: null,
-    available: false,
+    href: "/resources/content-creation-for-athletes",
+    image: "/images/gallery/chicago-run.jpg",
+    available: true,
   },
 ];
 

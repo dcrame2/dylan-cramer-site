@@ -10,20 +10,80 @@ import SocialCards from "./SocialCards";
 const timeline = [
   {
     year: "2023",
+    title: "Shamrock Shuffle 8K",
+    detail: "41:43 — first race in the books.",
+    icon: "SS",
+  },
+  {
+    year: "2023",
+    title: "Chicago 13.1 Half Marathon",
+    detail: "1:48:52 — first half marathon finish.",
+    icon: "HM",
+  },
+  {
+    year: "2023",
     title: "Chicago Triathlon",
     detail: "First multi-sport finish — hooked immediately.",
     icon: "CT",
   },
   {
+    year: "2023",
+    title: "Fontana Triathlon",
+    detail: "3:00:35 — Geneva Lake, Wisconsin.",
+    icon: "FT",
+  },
+  {
+    year: "2023",
+    title: "Indianapolis Marathon",
+    detail: "3:54:20 — first full marathon.",
+    icon: "MR",
+  },
+  {
     year: "2024",
-    title: "Ironman Wisconsin",
-    detail: "140.6 miles. 13:54:29. Everything changed.",
+    title: "Escape Alcatraz Triathlon",
+    detail: "3:08:57 — swam out of Alcatraz.",
+    icon: "EA",
+  },
+  {
+    year: "2024",
+    title: "Chicago Triathlon",
+    detail: "2:54:26 — back for round two.",
+    icon: "CT",
+  },
+  {
+    year: "2024",
+    title: "IRONMAN 70.3 Wisconsin",
+    detail: "6:14:11 — first half Ironman.",
     icon: "IM",
   },
   {
     year: "2024",
     title: "Tunnel Hill 100",
     detail: "100 miles through southern Illinois. All night, all grit.",
+    icon: "TH",
+  },
+  {
+    year: "2025",
+    title: "Frozen Gnome 50K",
+    detail: "6:46:12 — 50K in the dead of winter.",
+    icon: "FG",
+  },
+  {
+    year: "2025",
+    title: "Chicago Triathlon Triple",
+    detail: "Sprint + Olympic + International in one day. 5:11:04.",
+    icon: "CT",
+  },
+  {
+    year: "2025",
+    title: "BPN 50 Mile Ultra",
+    detail: "~9 hours — Go One More, Nov 2025.",
+    icon: "50",
+  },
+  {
+    year: "2025",
+    title: "Tunnel Hill 100mi",
+    detail: "25:53:47 — back for 100 more miles.",
     icon: "TH",
   },
   {
@@ -35,18 +95,18 @@ const timeline = [
   {
     year: "2026",
     title: "Ironman Lake Placid",
-    detail: "July 2026. The next chapter is already being written.",
+    detail: "July 2026. Full 140.6. The next chapter.",
     icon: "LP",
   },
 ];
 
 const stats = [
-  { value: "140.6", label: "Ironman Miles", suffix: "" },
-  { value: "100", label: "Ultra Miles", suffix: "mi" },
-  { value: "13:54", label: "IM Finish", suffix: "" },
+  { value: "15+", label: "Races Finished", suffix: "" },
+  { value: "100", label: "Longest Run (mi)", suffix: "" },
+  { value: "70.3", label: "Half Ironman", suffix: "" },
+  { value: "3:54", label: "Marathon PR", suffix: "" },
+  { value: "50K", label: "Winter Ultra", suffix: "" },
   { value: "1", label: "App Shipped", suffix: "" },
-  { value: "4:00", label: "AM Alarm", suffix: "" },
-  { value: "365", label: "Days a Year", suffix: "" },
 ];
 
 const interests = [
@@ -178,14 +238,13 @@ export default function AboutPage() {
                 the night, or swimming in open water before sunrise.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I finished{" "}
-                <span className="text-white font-semibold">Ironman Wisconsin</span> in
-                13:54:29, ran{" "}
-                <span className="text-white font-semibold">100 miles at Tunnel Hill</span>,
-                completed the{" "}
-                <span className="text-white font-semibold">Chicago Triathlon</span>,
-                and now I&apos;m training for{" "}
-                <span className="text-red-500 font-semibold">Ironman Lake Placid</span> in
+                I&apos;ve finished{" "}
+                <span className="text-white font-semibold">IRONMAN 70.3 Wisconsin</span> in
+                6:14:11, ran{" "}
+                <span className="text-white font-semibold">100 miles at Tunnel Hill</span> in 25:53,
+                swam Escape Alcatraz, raced the Chicago Triathlon Triple,
+                and now I&apos;m training for my first full{" "}
+                <span className="text-red-500 font-semibold">Ironman at Lake Placid</span> in
                 July 2026.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
@@ -228,10 +287,10 @@ export default function AboutPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
                   <p className="text-xs uppercase tracking-widest text-red-400 font-mono">
-                    Ironman Wisconsin 2024
+                    IRONMAN 70.3 Wisconsin 2024
                   </p>
                   <p className="text-3xl font-black text-white countdown-digit">
-                    13:54:29
+                    6:14:11
                   </p>
                 </div>
               </div>

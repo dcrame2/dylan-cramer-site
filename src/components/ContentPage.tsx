@@ -73,22 +73,22 @@ const contentTypes = [
   {
     title: "Race Day Raw",
     desc: "Unfiltered footage from Ironman start lines to finish tapes. Every high and low.",
-    emoji: "🏊‍♂️🚴‍♂️🏃‍♂️",
+    icon: <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M18.75 4.236c.982.143 1.954.317 2.916.52A6.003 6.003 0 0016.27 9.728M18.75 4.236V4.5c0 2.108-.966 3.99-2.48 5.228m0 0a6.003 6.003 0 01-5.54 0" /></svg>,
   },
   {
     title: "Training Sessions",
     desc: "5 AM swims, brick workouts, 20-milers. The daily grind, documented.",
-    emoji: "💪",
+    icon: <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" /><path strokeLinecap="round" strokeLinejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1.001A3.75 3.75 0 0012 18z" /></svg>,
   },
   {
     title: "Build in Public",
     desc: "Shipping apps, debugging at 2 AM, launch days. The dev life, unscripted.",
-    emoji: "⚡",
+    icon: <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" /></svg>,
   },
   {
     title: "Life Stuff",
     desc: "Cooking, coffee runs, travel, random adventures. The in-between moments.",
-    emoji: "🎬",
+    icon: <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z" /><path strokeLinecap="round" strokeLinejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z" /></svg>,
   },
 ];
 
@@ -403,7 +403,7 @@ export default function ContentPage() {
                 transition={{ duration: 0.6, delay: 0.12 * i }}
                 className="rounded-2xl border border-white/10 bg-white/[0.02] p-7 hover:border-red-500/30 transition-all duration-500 hover:bg-white/[0.04]"
               >
-                <span className="text-3xl block mb-4">{ct.emoji}</span>
+                <div className="text-red-500 mb-4">{ct.icon}</div>
                 <h3 className="text-lg font-bold mb-2">{ct.title}</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">{ct.desc}</p>
               </motion.div>

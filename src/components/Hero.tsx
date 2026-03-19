@@ -192,7 +192,7 @@ export default function Hero() {
           className='mt-12 flex gap-3 md:gap-6'
         >
           {[
-            { number: '140.6', label: 'Ironman' },
+            { number: '70.3', label: 'Ironman' },
             { number: '100', label: 'Mile' },
             { number: '50', label: 'Mile' },
           ].map((stat) => (

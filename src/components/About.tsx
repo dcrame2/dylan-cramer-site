@@ -5,10 +5,10 @@ import { useRef } from "react";
 import Image from "next/image";
 
 const milestones = [
-  { year: "2024", title: "Ironman Wisconsin", detail: "13:54:29", icon: "M" },
-  { year: "2024", title: "Tunnel Hill 100", detail: "100 miles", icon: "U" },
-  { year: "2025", title: "InstaCal Launch", detail: "iOS & Android", icon: "A" },
-  { year: "2026", title: "Ironman Lake Placid", detail: "Next target", icon: "T" },
+  { year: "2024", title: "Ironman 70.3 Wisconsin", detail: "6:14:11", icon: "M" },
+  { year: "2024", title: "Escape Alcatraz Tri", detail: "3:08:57", icon: "T" },
+  { year: "2025", title: "Tunnel Hill 100mi", detail: "25:53:47", icon: "U" },
+  { year: "2025", title: "Frozen Gnome 50K", detail: "6:46:12", icon: "R" },
 ];
 
 export default function About() {
@@ -50,9 +50,10 @@ export default function About() {
                 the night, or swimming in open water before sunrise.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I finished <span className="text-white font-semibold">Ironman Wisconsin</span> in
-                13:54:29, ran <span className="text-white font-semibold">100 miles at Tunnel Hill</span>,
-                and now I&apos;m training for{" "}
+                I&apos;ve finished <span className="text-white font-semibold">IRONMAN 70.3 Wisconsin</span>,
+                ran <span className="text-white font-semibold">100 miles at Tunnel Hill</span> in 25:53,
+                swam Escape Alcatraz, raced the Chicago Triathlon Triple, and completed a 50K
+                in the dead of winter. Now I&apos;m training for{" "}
                 <span className="text-red-500 font-semibold">Ironman Lake Placid</span> in July 2026.
                 I also like to party, go to music festivals, and live life to the fullest.
               </p>
@@ -102,9 +103,9 @@ export default function About() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">
                 <p className="text-xs uppercase tracking-widest text-red-400 font-mono">
-                  Ironman Wisconsin 2024
+                  IRONMAN 70.3 Wisconsin 2024
                 </p>
-                <p className="text-3xl font-black text-white">13:54:29</p>
+                <p className="text-3xl font-black text-white">6:14:11</p>
               </div>
             </div>
             <div className="absolute -bottom-3 -right-3 w-full h-full border-2 border-red-600/20 -z-10 rounded-2xl" />
