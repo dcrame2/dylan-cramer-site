@@ -72,7 +72,7 @@ export default function Hero() {
       className='relative h-screen flex items-center overflow-hidden grain-overlay'
     >
       {/* Background image — on mobile, image is wider than viewport and shifted right so Dylan is visible */}
-      <div className='absolute top-0 bottom-0 left-0 z-0 md:right-0 right-[-53%] md:w-full'>
+      <div className='absolute top-0 bottom-0 left-0 z-0 md:right-0 right-[-70%] md:w-full'>
         <Image
           src='/images/gallery/ironman-final.jpg'
           alt='Dylan Cramer finishing Ironman'

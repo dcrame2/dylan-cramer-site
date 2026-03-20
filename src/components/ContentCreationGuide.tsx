@@ -129,7 +129,7 @@ export default function ContentCreationGuide() {
       >
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/gallery/chicago-run.jpg"
+            src="/images/gallery/alcatraz-beach-run2.jpg"
             alt="Filming content while running in Chicago"
             fill
             className="object-cover object-[50%_30%]"
@@ -278,7 +278,7 @@ export default function ContentCreationGuide() {
                   <span className="text-red-500">.</span>
                 </h2>
                 <SectionImage
-                  src="/images/gallery/festival.jpg"
+                  src="/images/gallery/alcatraz-bike-coast.jpg"
                   alt="Capturing content at a race event"
                   caption="Content Meets Racing"
                 />
@@ -485,7 +485,7 @@ export default function ContentCreationGuide() {
                   <span className="text-red-500">.</span>
                 </h2>
                 <SectionImage
-                  src="/images/gallery/tri-friends.jpg"
+                  src="/images/gallery/chi-tri-friends.jpg"
                   alt="Athletes and friends at a race"
                   caption="Community Content"
                 />

@@ -13,6 +13,7 @@ const resources = [
       "Everything you need to know to go from zero to Ironman finisher. Training plans, nutrition, gear, race day strategy, and lessons from the course.",
     href: "/resources/ironman-training-guide",
     image: "/images/gallery/stadium-run.jpg",
+    imagePosition: "top" as const,
     available: true,
   },
   {
@@ -72,7 +73,7 @@ const resources = [
     description:
       "How to document your athletic journey without it killing your training. Gear, workflow, and growing an audience as an endurance athlete.",
     href: "/resources/content-creation-for-athletes",
-    image: "/images/gallery/chicago-run.jpg",
+    image: "/images/gallery/alcatraz-beach-run2.jpg",
     available: true,
   },
 ];
@@ -158,7 +159,7 @@ export default function ResourcesPage() {
                           alt={resource.title}
                           fill
                           sizes="(max-width: 768px) 100vw, 50vw"
-                          className="object-cover group-hover:scale-105 transition-transform duration-700"
+                          className={`object-cover group-hover:scale-105 transition-transform duration-700 ${resource.imagePosition === "top" ? "object-top" : ""}`}
                         />
                       )}
                       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp \"/Users/dylancramer/Pictures/Photos Library.photoslibrary/resources/derivatives/C/CEDC305D-A2D5-423B-AB38-1EF56B5C234D_1_105_c.jpeg\" /Users/dylancramer/Desktop/webdevelopment/dylan-cramer-site/public/images/gallery/chi-tri-chitri-sign.jpg)",
+      "Bash(cp \"/Users/dylancramer/Pictures/Photos Library.photoslibrary/resources/derivatives/6/62ED24E3-B305-4C99-83F8-88CA0898E62E_1_105_c.jpeg\" /Users/dylancramer/Desktop/webdevelopment/dylan-cramer-site/public/images/gallery/chi-tri-finish-arch.jpg)",
+      "Bash(cp \"/Users/dylancramer/Pictures/Photos Library.photoslibrary/resources/derivatives/A/AB8B69AC-9B54-4DF8-8F68-0680F6A39138_1_105_c.jpeg\" /Users/dylancramer/Desktop/webdevelopment/dylan-cramer-site/public/images/gallery/chi-tri-finish-arch2.jpg)",
+      "Bash(cp \"/Users/dylancramer/Pictures/Photos Library.photoslibrary/resources/derivatives/8/8A1E6E22-9ED5-46B0-B6ED-AA3EABA711E1_1_105_c.jpeg\" /Users/dylancramer/Desktop/webdevelopment/dylan-cramer-site/public/images/gallery/chi-tri-family.jpg)",
+      "Bash(cp \"/Users/dylancramer/Pictures/Photos Library.photoslibrary/resources/derivatives/F/F230E2E2-F977-410C-A20C-6397745E5945_1_105_c.jpeg\" /Users/dylancramer/Desktop/webdevelopment/dylan-cramer-site/public/images/gallery/chi-tri-brightside2.jpg)"
+    ]
+  }
+}
