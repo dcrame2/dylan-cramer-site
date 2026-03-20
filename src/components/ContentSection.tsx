@@ -114,7 +114,6 @@ export default function ContentSection() {
                     src={`${item.url}embed`}
                     className="w-[320px] h-[580px] border-0"
                     scrolling="no"
-                    allowTransparency
                     allow="encrypted-media"
                     loading="lazy"
                     title={`Instagram post ${i + 1}`}
