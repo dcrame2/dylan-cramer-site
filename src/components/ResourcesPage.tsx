@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const resources = [
   {
@@ -80,7 +81,7 @@ const resources = [
 
 function useAnimRef() {
   const ref = useRef<HTMLDivElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-80px" });
+  const inView = useInView(ref, { once: false, margin: "-80px" });
   return { ref, inView };
 }
 
@@ -147,7 +148,7 @@ export default function ResourcesPage() {
                 transition={{ duration: 0.6, delay: 0.15 + i * 0.1 }}
               >
                 {resource.available ? (
-                  <a
+                  <Link
                     href={resource.href}
                     className="group block relative overflow-hidden rounded-2xl bg-white/5 border border-white/10 hover:border-red-600/50 transition-all duration-500"
                   >
@@ -198,7 +199,7 @@ export default function ResourcesPage() {
                         </svg>
                       </span>
                     </div>
-                  </a>
+                  </Link>
                 ) : (
                   <div className="relative overflow-hidden rounded-2xl bg-white/[0.02] border border-white/5 opacity-50 cursor-not-allowed">
                     {/* Placeholder image area */}
