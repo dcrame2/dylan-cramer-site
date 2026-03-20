@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 const navLinks = [
   { href: "/about", label: "About" },
@@ -20,6 +21,7 @@ const resourceLinks = [
   { href: "/resources/long-distance-cycling-guide", label: "Long Distance Cycling" },
   { href: "/resources/race-day-nutrition-strategy", label: "Race Day Nutrition" },
   { href: "/resources/content-creation-for-athletes", label: "Content for Athletes" },
+  { href: "/resources/ultramarathon-packing-list", label: "Ultra Packing List" },
 ];
 
 export default function Navigation() {
@@ -47,15 +49,15 @@ export default function Navigation() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <a href="/" className="text-xl font-bold tracking-tight">
+          <Link href="/" className="text-xl font-bold tracking-tight">
             <span className="text-red-500">DYLAN</span>
             <span className="text-white"> CRAMER</span>
-          </a>
+          </Link>
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className={`text-sm uppercase tracking-widest transition-colors duration-300 ${
@@ -63,7 +65,7 @@ export default function Navigation() {
                 }`}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
 
             {/* Resources dropdown */}
@@ -98,20 +100,20 @@ export default function Navigation() {
                     transition={{ duration: 0.15 }}
                     className="absolute top-full left-0 mt-2 w-64 bg-black/95 backdrop-blur-xl border border-white/10 rounded-xl overflow-hidden shadow-2xl"
                   >
-                    <a
+                    <Link
                       href="/resources"
                       className="block px-4 py-3 text-xs uppercase tracking-widest text-gray-500 hover:text-red-500 hover:bg-white/5 transition-all border-b border-white/5"
                     >
                       All Resources
-                    </a>
+                    </Link>
                     {resourceLinks.map((link) => (
-                      <a
+                      <Link
                         key={link.href}
                         href={link.href}
                         className="block px-4 py-3 text-sm text-gray-300 hover:text-red-500 hover:bg-white/5 transition-all"
                       >
                         {link.label}
-                      </a>
+                      </Link>
                     ))}
                   </motion.div>
                 )}
@@ -190,30 +192,36 @@ export default function Navigation() {
             className="fixed inset-0 z-40 bg-black/95 backdrop-blur-xl flex flex-col items-center justify-center gap-8"
           >
             {navLinks.map((link, i) => (
-              <motion.a
+              <motion.div
                 key={link.href}
-                href={link.href}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
-                onClick={() => setMobileOpen(false)}
-                className="text-2xl uppercase tracking-widest text-white hover:text-red-500 transition-colors"
               >
-                {link.label}
-              </motion.a>
+                <Link
+                  href={link.href}
+                  onClick={() => setMobileOpen(false)}
+                  className="text-2xl uppercase tracking-widest text-white hover:text-red-500 transition-colors"
+                >
+                  {link.label}
+                </Link>
+              </motion.div>
             ))}
 
             {/* Resources in mobile */}
-            <motion.a
-              href="/resources"
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: navLinks.length * 0.1 }}
-              onClick={() => setMobileOpen(false)}
-              className="text-2xl uppercase tracking-widest text-white hover:text-red-500 transition-colors"
             >
-              Resources
-            </motion.a>
+              <Link
+                href="/resources"
+                onClick={() => setMobileOpen(false)}
+                className="text-2xl uppercase tracking-widest text-white hover:text-red-500 transition-colors"
+              >
+                Resources
+              </Link>
+            </motion.div>
 
             <div className="flex gap-6 mt-8">
               <a href="https://www.instagram.com/cramerdyl/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-500 transition-colors">

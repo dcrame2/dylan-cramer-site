@@ -148,7 +148,7 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
-            className='h-7 mb-8 overflow-hidden'
+            className='h-7 mb-2 overflow-hidden'
           >
             <motion.p
               key={roleIndex}
@@ -161,6 +161,16 @@ export default function Hero() {
               {roles[roleIndex]}
             </motion.p>
           </motion.div>
+
+          {/* Subheading */}
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.0 }}
+            className='text-sm md:text-base text-gray-400 mb-8 max-w-md leading-relaxed'
+          >
+            Software dev by day, Ironman &amp; ultrarunner by night. Building apps, creating content, and chasing finish lines.
+          </motion.p>
 
           {/* CTA buttons */}
           <motion.div

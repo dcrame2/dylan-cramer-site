@@ -77,6 +77,16 @@ const resources = [
     image: "/images/gallery/alcatraz-beach-run2.jpg",
     available: true,
   },
+  {
+    title: "Ultramarathon Packing List",
+    category: "Ultrarunning",
+    readTime: "Interactive Checklist",
+    description:
+      "The complete packing list from a 100-mile finisher. Clothing, fuel, gear, and pain relief — check items off as you pack.",
+    href: "/resources/ultramarathon-packing-list",
+    image: "/images/gallery/ultra-crew.jpg",
+    available: true,
+  },
 ];
 
 function useAnimRef() {
