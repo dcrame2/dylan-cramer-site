@@ -233,6 +233,41 @@ export default function ConnectPage() {
       {/* Red accent line */}
       <div className="w-full h-px bg-gradient-to-r from-transparent via-red-600/50 to-transparent" />
 
+      {/* ===== PHOTO STRIP ===== */}
+      <section className="relative py-16 px-6 overflow-hidden">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {[
+              { src: "/images/gallery/ironman-run.jpg", alt: "Ironman run", pos: "object-top" },
+              { src: "/images/gallery/festival.jpg", alt: "Music festival", pos: "object-center" },
+              { src: "/images/gallery/night-trail.jpg", alt: "Night trail running", pos: "object-center" },
+              { src: "/images/gallery/swim-exit.jpg", alt: "Swim exit", pos: "object-top" },
+            ].map((img, i) => (
+              <motion.div
+                key={img.src}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.6, delay: i * 0.1 }}
+                className="relative aspect-[4/5] rounded-2xl overflow-hidden"
+              >
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  fill
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                  className={`object-cover ${img.pos} hover:scale-105 transition-transform duration-700`}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Red accent line */}
+      <div className="w-full h-px bg-gradient-to-r from-transparent via-red-600/50 to-transparent" />
+
       {/* ===== SOCIAL PLATFORMS SECTION ===== */}
       <section ref={socialRef} className="relative py-24 px-6">
         <div className="max-w-7xl mx-auto relative z-10">
@@ -341,58 +376,82 @@ export default function ConnectPage() {
               initial={{ opacity: 0, x: -30 }}
               animate={updateInView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: 0.2, type: "spring", stiffness: 100 }}
-              className="rounded-2xl bg-white/[0.03] border border-white/10 p-8 hover:border-red-600/30 transition-colors"
+              className="rounded-2xl bg-white/[0.03] border border-white/10 overflow-hidden hover:border-red-600/30 transition-colors"
             >
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-3 h-3 rounded-full bg-red-500 animate-pulse-red" />
-                <span className="text-xs uppercase tracking-wider text-red-500 font-mono font-bold">
-                  Training
-                </span>
+              <div className="relative h-48 overflow-hidden">
+                <Image
+                  src="/images/gallery/bike-barn.jpg"
+                  alt="Training on the bike"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
               </div>
-              <h3 className="text-2xl font-black uppercase text-white mb-3">
-                Ironman Lake Placid
-              </h3>
-              <p className="text-sm text-gray-400 leading-relaxed mb-4">
-                Training for Ironman Lake Placid in July 2026. Following the
-                journey means swim/bike/run content, race prep updates, and the
-                grind of balancing training with building.
-              </p>
-              <p className="text-xs font-mono text-gray-600">
-                2.4mi swim &bull; 112mi bike &bull; 26.2mi run
-              </p>
+              <div className="p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-3 h-3 rounded-full bg-red-500 animate-pulse-red" />
+                  <span className="text-xs uppercase tracking-wider text-red-500 font-mono font-bold">
+                    Training
+                  </span>
+                </div>
+                <h3 className="text-2xl font-black uppercase text-white mb-3">
+                  Ironman Lake Placid
+                </h3>
+                <p className="text-sm text-gray-400 leading-relaxed mb-4">
+                  Training for Ironman Lake Placid in July 2026. Following the
+                  journey means swim/bike/run content, race prep updates, and the
+                  grind of balancing training with building.
+                </p>
+                <p className="text-xs font-mono text-gray-600">
+                  2.4mi swim &bull; 112mi bike &bull; 26.2mi run
+                </p>
+              </div>
             </motion.div>
 
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               animate={updateInView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: 0.35, type: "spring", stiffness: 100 }}
-              className="rounded-2xl bg-white/[0.03] border border-white/10 p-8 hover:border-red-600/30 transition-colors"
+              className="rounded-2xl bg-white/[0.03] border border-white/10 overflow-hidden hover:border-red-600/30 transition-colors"
             >
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-3 h-3 rounded-full bg-red-500 animate-pulse-red" />
-                <span className="text-xs uppercase tracking-wider text-red-500 font-mono font-bold">
-                  Building
-                </span>
+              <div className="relative h-48 overflow-hidden">
+                <Image
+                  src="/images/gallery/chicago-run.jpg"
+                  alt="Running in Chicago"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
               </div>
-              <h3 className="text-2xl font-black uppercase text-white mb-3">
-                InstaCal
-              </h3>
-              <p className="text-sm text-gray-400 leading-relaxed mb-4">
-                Building InstaCal &mdash; the visual content calendar for
-                Instagram creators. Planning, scheduling, and optimizing your
-                feed has never been easier.
-              </p>
-              <a
-                href="https://theinstacal.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-xs uppercase tracking-wider text-red-500 hover:text-red-400 transition-colors font-mono"
-              >
-                theinstacal.app
-                <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                </svg>
-              </a>
+              <div className="p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-3 h-3 rounded-full bg-red-500 animate-pulse-red" />
+                  <span className="text-xs uppercase tracking-wider text-red-500 font-mono font-bold">
+                    Building
+                  </span>
+                </div>
+                <h3 className="text-2xl font-black uppercase text-white mb-3">
+                  InstaCal
+                </h3>
+                <p className="text-sm text-gray-400 leading-relaxed mb-4">
+                  Building InstaCal &mdash; the visual content calendar for
+                  Instagram creators. Planning, scheduling, and optimizing your
+                  feed has never been easier.
+                </p>
+                <a
+                  href="https://theinstacal.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-xs uppercase tracking-wider text-red-500 hover:text-red-400 transition-colors font-mono"
+                >
+                  theinstacal.app
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
+              </div>
             </motion.div>
           </div>
         </div>
