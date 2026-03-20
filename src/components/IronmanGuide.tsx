@@ -49,10 +49,12 @@ function SectionImage({
   src,
   alt,
   caption,
+  imagePosition,
 }: {
   src: string;
   alt: string;
   caption: string;
+  imagePosition?: "top" | "center" | "bottom";
 }) {
   return (
     <div className="relative rounded-2xl overflow-hidden my-8">
@@ -62,7 +64,7 @@ function SectionImage({
           alt={alt}
           fill
           sizes="(max-width: 768px) 100vw, 720px"
-          className="object-cover"
+          className={`object-cover ${imagePosition === "top" ? "object-top" : imagePosition === "bottom" ? "object-bottom" : ""}`}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
       </div>
@@ -518,6 +520,7 @@ export default function IronmanGuide() {
                   src="/images/gallery/swim-exit.jpg"
                   alt="Exiting the water during a triathlon swim"
                   caption="Swim Exit - Ironman Wisconsin"
+                  imagePosition="top"
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   The swim is 2.4 miles and it&apos;s usually the discipline
@@ -980,6 +983,7 @@ export default function IronmanGuide() {
                   src="/images/gallery/ironman-final.jpg"
                   alt="Dylan finishing Ironman Wisconsin"
                   caption="The Finish Line - 13:54:29"
+                  imagePosition="top"
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
                   These are the specific lessons I learned finishing Ironman
