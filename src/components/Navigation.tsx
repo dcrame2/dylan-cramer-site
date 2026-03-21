@@ -8,9 +8,13 @@ import Link from "next/link";
 const navLinks = [
   { href: "/about", label: "About" },
   { href: "/gallery", label: "Gallery" },
+  { href: "/connect", label: "Connect" },
+];
+
+const serviceLinks = [
+  { href: "/services/portfolio", label: "Website Portfolio" },
   { href: "/instacal", label: "InstaCal" },
   { href: "/content", label: "Content" },
-  { href: "/connect", label: "Connect" },
 ];
 
 const resourceLinks = [
@@ -28,6 +32,7 @@ export default function Navigation() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
   const [resourcesOpen, setResourcesOpen] = useState(false);
 
   useEffect(() => {
@@ -67,6 +72,54 @@ export default function Navigation() {
                 {link.label}
               </Link>
             ))}
+
+            {/* Services dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={() => setServicesOpen(true)}
+              onMouseLeave={() => setServicesOpen(false)}
+            >
+              <button
+                className={`text-sm uppercase tracking-widest transition-colors duration-300 flex items-center gap-1 ${
+                  pathname.startsWith("/services") || pathname === "/instacal" || pathname === "/content"
+                    ? "text-red-500"
+                    : "text-gray-400 hover:text-red-500"
+                }`}
+              >
+                Services
+                <svg
+                  className={`w-3 h-3 transition-transform duration-200 ${servicesOpen ? "rotate-180" : ""}`}
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              <AnimatePresence>
+                {servicesOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 8 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 8 }}
+                    transition={{ duration: 0.15 }}
+                    className="absolute top-full left-0 mt-2 w-56 bg-black/95 backdrop-blur-xl border border-white/10 rounded-xl overflow-hidden shadow-2xl"
+                  >
+                    {serviceLinks.map((link) => (
+                      <Link
+                        key={link.href}
+                        href={link.href}
+                        className="block px-4 py-3 text-sm text-gray-300 hover:text-red-500 hover:bg-white/5 transition-all"
+                      >
+                        {link.label}
+                      </Link>
+                    ))}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
 
             {/* Resources dropdown */}
             <div
@@ -208,11 +261,33 @@ export default function Navigation() {
               </motion.div>
             ))}
 
-            {/* Resources in mobile */}
+            {/* Services in mobile */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: navLinks.length * 0.1 }}
+              className="flex flex-col items-center gap-4"
+            >
+              <span className="text-xs uppercase tracking-[0.3em] text-gray-600 font-mono">
+                Services
+              </span>
+              {serviceLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setMobileOpen(false)}
+                  className="text-lg uppercase tracking-widest text-gray-300 hover:text-red-500 transition-colors"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </motion.div>
+
+            {/* Resources in mobile */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: (navLinks.length + 1) * 0.1 }}
             >
               <Link
                 href="/resources"
