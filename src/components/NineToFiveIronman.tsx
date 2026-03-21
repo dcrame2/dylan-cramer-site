@@ -246,7 +246,7 @@ export default function NineToFiveIronman() {
                     you otherwise is either lying or doesn&apos;t have a job.
                     It&apos;s 6-9 months of early alarms, sacrificed weekends,
                     and constantly feeling like you&apos;re falling behind on
-                    something -- work, training, relationships, or sleep.
+                    something: work, training, relationships, or sleep.
                   </p>
                   <p className="text-gray-300 text-lg leading-relaxed mb-4">
                     But here&apos;s the truth:{" "}
@@ -318,7 +318,7 @@ export default function NineToFiveIronman() {
                 </p>
                 <Tip>
                   Track your time for one full week before you start training.
-                  Write down everything -- work, meals, commute, scrolling,
+                  Write down everything: work, meals, commute, scrolling,
                   Netflix, socializing. You&apos;ll be shocked at how many
                   recoverable hours exist in your schedule.
                 </Tip>
@@ -576,7 +576,7 @@ export default function NineToFiveIronman() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   When you&apos;re training 10-15 hours a week on top of a
                   full-time job, you do not have time to cook elaborate meals
-                  every night. Meal prepping is not optional -- it&apos;s
+                  every night. Meal prepping is not optional, it&apos;s
                   survival. You&apos;re burning 3,000-4,000+ calories a day
                   during peak training. You need to eat a lot, and it needs to
                   be good fuel.
@@ -601,7 +601,7 @@ export default function NineToFiveIronman() {
                     },
                     {
                       item: "Vegetables",
-                      detail: "Roasted sheet pan veggies -- sweet potatoes, broccoli, bell peppers. Toss in oil, season, roast at 425F for 25 minutes.",
+                      detail: "Roasted sheet pan veggies: sweet potatoes, broccoli, bell peppers. Toss in oil, season, roast at 425F for 25 minutes.",
                     },
                     {
                       item: "Snacks",
@@ -705,7 +705,7 @@ export default function NineToFiveIronman() {
                   Ironman training doesn&apos;t just affect you. It affects
                   your partner, your friends, your family, and your coworkers.
                   The people in your life need to understand what&apos;s coming
-                  and feel like they&apos;re part of it -- not competing with
+                  and feel like they&apos;re part of it, not competing with
                   it.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
@@ -717,7 +717,7 @@ export default function NineToFiveIronman() {
                   weekend sessions. Ask for their support and listen to their
                   concerns. Set boundaries together: &ldquo;Saturday mornings
                   are my long ride, but Saturday evenings are ours.&rdquo;
-                  Invite them to be part of it -- come to the race, be your
+                  Invite them to be part of it: come to the race, be your
                   crew. When they feel included, the sacrifice feels shared.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
@@ -823,7 +823,7 @@ export default function NineToFiveIronman() {
                     <span className="text-white font-semibold">
                       Say yes to the things that matter.
                     </span>{" "}
-                    Birthday parties, weddings, meaningful dinners -- these
+                    Birthday parties, weddings, meaningful dinners: these
                     don&apos;t happen that often. Adjust your training around
                     them, not the other way around.
                   </p>
@@ -872,56 +872,56 @@ export default function NineToFiveIronman() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
                   Here&apos;s exactly what a peak training week looked like for
                   me while working full time as a software developer and
-                  building InstaCal on the side. This is not idealized -- this
+                  building InstaCal on the side. This is not idealized. This
                   is what actually happened.
                 </p>
                 <div className="space-y-4 my-6">
                   {[
                     {
                       num: "01",
-                      title: "4:45 AM — Alarm goes off",
+                      title: "4:45 AM: Alarm goes off",
                       detail:
                         "Clothes are already laid out. Coffee is on a timer. I'm out the door by 5:10 for the pool or on the bike trainer by 5:15. No thinking. Just moving.",
                     },
                     {
                       num: "02",
-                      title: "5:15-6:45 AM — Morning workout",
+                      title: "5:15-6:45 AM: Morning workout",
                       detail:
                         "Swim 3x/week (Mon, Wed, Thu). Bike trainer 2x/week (Tue, Thu). These are structured sessions, not junk miles. Quality over quantity when time is limited.",
                     },
                     {
                       num: "03",
-                      title: "7:00-7:45 AM — Shower, eat, commute",
+                      title: "7:00-7:45 AM: Shower, eat, commute",
                       detail:
                         "Big breakfast: eggs, oatmeal, fruit. Meal-prepped lunch in my bag. I worked hybrid, so some days this was just walking to my desk.",
                     },
                     {
                       num: "04",
-                      title: "8:00 AM-5:00 PM — Work",
+                      title: "8:00 AM-5:00 PM: Work",
                       detail:
                         "Full focus. Some days I'd do a 30-min lunch run if I missed a morning session. Otherwise, lunch was for eating and resting.",
                     },
                     {
                       num: "05",
-                      title: "5:30-6:30 PM — Second session (Tue/Thu only)",
+                      title: "5:30-6:30 PM: Second session (Tue/Thu only)",
                       detail:
                         "Short easy run on Tuesday, easy spin on Thursday. These were 30-45 min max. Recovery-level effort. Some weeks I skipped these entirely.",
                     },
                     {
                       num: "06",
-                      title: "7:00-8:30 PM — Dinner, content work, rest",
+                      title: "7:00-8:30 PM: Dinner, content work, rest",
                       detail:
                         "Eat dinner. Edit a video or work on InstaCal for 30-45 min. Spend time with people. Phone goes down by 8:30.",
                     },
                     {
                       num: "07",
-                      title: "9:00 PM — Lights out",
+                      title: "9:00 PM: Lights out",
                       detail:
                         "Non-negotiable. 9 PM bedtime meant 7.5-8 hours of sleep. I protected this ruthlessly. Nothing good happens after 9 PM during Ironman training.",
                     },
                     {
                       num: "08",
-                      title: "Weekends — The Big Sessions",
+                      title: "Weekends: The Big Sessions",
                       detail:
                         "Saturday: 4-6 hour bike ride starting at 6 AM, followed by a 20-40 min brick run. Sunday: 1.5-2.5 hour long run at 7 AM. Rest of the weekend was mine.",
                     },
@@ -1051,7 +1051,7 @@ export default function NineToFiveIronman() {
                       Download InstaCal
                     </p>
                     <p className="text-sm text-gray-400 mb-4">
-                      The AI-powered calorie tracker I built -- during Ironman
+                      The AI-powered calorie tracker I built during Ironman
                       training. Snap a photo of your food and get instant macro
                       breakdowns.
                     </p>

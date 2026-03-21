@@ -81,7 +81,7 @@ const faqs = [
   {
     question: "What's the best way to reach you?",
     answer:
-      "DM me on Instagram @cramerdyl — that's where I'm most active and respond fastest. For brand deals and formal inquiries, email dcrame2@gmail.com.",
+      "DM me on Instagram @cramerdyl. That's where I'm most active and respond fastest. For brand deals and formal inquiries, email dcrame2@gmail.com.",
   },
   {
     question: "Are you open to brand collaborations?",
@@ -172,7 +172,7 @@ export default function ConnectPage() {
             className="text-lg md:text-xl text-gray-300 max-w-xl"
           >
             Whether you want to follow the journey, work together, or just say
-            what&apos;s up &mdash; I&apos;m here for it.
+            what&apos;s up, I&apos;m here for it.
           </motion.p>
         </div>
       </section>
@@ -197,7 +197,7 @@ export default function ConnectPage() {
             </h2>
             <p className="text-gray-400 mb-10">
               Exclusive content, training updates, app launches, and more.
-              No spam &mdash; just real updates from the journey.
+              No spam. Just real updates from the journey.
             </p>
 
             <motion.form
@@ -436,7 +436,7 @@ export default function ConnectPage() {
                   InstaCal
                 </h3>
                 <p className="text-sm text-gray-400 leading-relaxed mb-4">
-                  Building InstaCal &mdash; the visual content calendar for
+                  Building InstaCal, the visual content calendar for
                   Instagram creators. Planning, scheduling, and optimizing your
                   feed has never been easier.
                 </p>

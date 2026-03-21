@@ -41,7 +41,7 @@ export default function About() {
 
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I&apos;m Dylan Cramer — a software developer by day who refuses to sit still.
+                I&apos;m Dylan Cramer, a software developer by day who refuses to sit still.
                 When I&apos;m not writing code or building my app{" "}
                 <a href="/instacal" className="text-red-500 hover:underline">
                   InstaCal
@@ -59,7 +59,7 @@ export default function About() {
                 I also like to party, go to music festivals, and live life to the fullest.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I document the whole journey — the 4am swims, the 100-mile weeks, the
+                I document the whole journey. The 4am swims, the 100-mile weeks, the
                 app development grind, the wins, and the suffering. If you&apos;re into
                 pushing limits and doing the most with the time you have, welcome.
               </p>

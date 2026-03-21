@@ -166,7 +166,7 @@ export default function UltraMarathonNutrition() {
             className="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl"
           >
             How to fuel for 50K, 50-mile, and 100-mile races. From someone who
-            learned the hard way what works -- and what sends you to the porta
+            learned the hard way what works, and what sends you to the porta
             potty at mile 60.
           </motion.p>
           <motion.div
@@ -577,7 +577,7 @@ export default function UltraMarathonNutrition() {
                 </p>
                 <Tip>
                   Make a laminated index card listing your nutrition plan for
-                  each aid station -- what to eat, what to refill, any gear
+                  each aid station: what to eat, what to refill, any gear
                   changes. Tape it to your pack or give it to your crew. At
                   mile 75, your brain will not remember the plan you made when
                   you were fresh. The card remembers for you.
@@ -596,7 +596,7 @@ export default function UltraMarathonNutrition() {
                   sweating for 8-30+ hours. Sodium, potassium, magnesium, and
                   calcium are leaving your body the entire time. If you
                   don&apos;t replace them, you&apos;ll experience cramping,
-                  nausea, confusion, and eventually hyponatremia -- a dangerous
+                  nausea, confusion, and eventually hyponatremia, a dangerous
                   condition where your blood sodium drops too low.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
@@ -619,13 +619,13 @@ export default function UltraMarathonNutrition() {
                 <div className="space-y-4 my-6">
                   <p className="text-gray-300 text-lg leading-relaxed">
                     <span className="text-white font-semibold">Cramping</span>{" "}
-                    -- the classic sign. If your calves, quads, or hamstrings
+                    is the classic sign. If your calves, quads, or hamstrings
                     start seizing, you need sodium immediately. Salt capsules
                     and broth are the fastest fixes.
                   </p>
                   <p className="text-gray-300 text-lg leading-relaxed">
                     <span className="text-white font-semibold">Nausea</span>{" "}
-                    -- often blamed on food, but frequently caused by low
+                    is often blamed on food, but frequently caused by low
                     sodium. If you feel nauseous and you&apos;ve been drinking
                     plain water without electrolytes, that&apos;s likely the
                     culprit.
@@ -634,7 +634,7 @@ export default function UltraMarathonNutrition() {
                     <span className="text-white font-semibold">
                       Puffy hands and fingers
                     </span>{" "}
-                    -- a sign of water retention from low sodium. Your body
+                    is a sign of water retention from low sodium. Your body
                     is holding onto water because it doesn&apos;t have enough
                     salt to process it.
                   </p>
@@ -642,7 +642,7 @@ export default function UltraMarathonNutrition() {
                     <span className="text-white font-semibold">
                       Mental fog
                     </span>{" "}
-                    -- confusion, disorientation, and difficulty making
+                    means confusion, disorientation, and difficulty making
                     decisions. This is serious. If you or someone around you
                     seems confused, get electrolytes and medical attention if
                     needed.
@@ -684,13 +684,13 @@ export default function UltraMarathonNutrition() {
                     },
                     {
                       phase: "Miles 40-60",
-                      strategy: "Start light — 50-100mg",
+                      strategy: "Start light, 50-100mg",
                       detail:
                         "A caffeinated gel or half a cup of cola. This is your first boost. It'll hit just as fatigue starts building and the sun may be going down.",
                     },
                     {
                       phase: "Miles 60-80",
-                      strategy: "Moderate — 100-200mg per hour",
+                      strategy: "Moderate, 100-200mg per hour",
                       detail:
                         "Cola at every aid station, caffeinated gels, or caffeine pills. You're likely running through the night now. Caffeine keeps the lights on mentally.",
                     },
@@ -787,7 +787,7 @@ export default function UltraMarathonNutrition() {
                 </div>
                 <Tip>
                   Pack a small ziplock of your favorite salty snacks in your drop
-                  bag for the night aid stations -- potato chips, salted
+                  bag for the night aid stations: potato chips, salted
                   cashews, pretzels. When your stomach is rebelling against
                   everything at the aid station, having your comfort food can
                   save your race.
@@ -907,7 +907,7 @@ export default function UltraMarathonNutrition() {
                 </h2>
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
                   Here&apos;s exactly what I ate and drank during Tunnel Hill
-                  100. Not a theoretical plan -- this is what I actually consumed
+                  100. Not a theoretical plan. This is what I actually consumed
                   across 100 miles of crushed limestone trail in southern
                   Illinois.
                 </p>
@@ -939,13 +939,13 @@ export default function UltraMarathonNutrition() {
                     },
                     {
                       num: "05",
-                      title: "Miles 70-85: Survival eating — Coke, broth, pretzels",
+                      title: "Miles 70-85: Survival eating. Coke, broth, pretzels",
                       detail:
                         "The lowest point nutritionally. Stomach was touchy. Forced down small sips of Coke and broth. Nibbled pretzels. Maybe 150 cal/hr. Took two caffeine pills at mile 75.",
                     },
                     {
                       num: "06",
-                      title: "Miles 85-100: Second wind — Coke, cookies, grilled cheese",
+                      title: "Miles 85-100: Second wind. Coke, cookies, grilled cheese",
                       detail:
                         "Something clicked around mile 85. The sun came up. My appetite returned slightly. Had a grilled cheese at mile 87 that I still think about. Coke and cookies carried me home.",
                     },
@@ -1004,7 +1004,7 @@ export default function UltraMarathonNutrition() {
                       num: "03",
                       title: "Drinking only water",
                       detail:
-                        "Plain water without electrolytes over many hours can cause hyponatremia. Always pair water intake with sodium. This is not optional -- it's a safety issue.",
+                        "Plain water without electrolytes over many hours can cause hyponatremia. Always pair water intake with sodium. This is not optional. It's a safety issue.",
                     },
                     {
                       num: "04",

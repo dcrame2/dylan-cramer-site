@@ -217,8 +217,8 @@ export default function ContentPage() {
                 Inspired by creators like{" "}
                 <span className="text-white font-semibold">@jacksdayinlife</span>,{" "}
                 <span className="text-white font-semibold">@chida.rajan</span>, and{" "}
-                <span className="text-white font-semibold">@omarontape</span> &mdash;
-                people who keep it authentic and let the story tell itself.
+                <span className="text-white font-semibold">@omarontape</span>.
+                People who keep it authentic and let the story tell itself.
               </p>
             </div>
           </motion.div>
@@ -433,7 +433,7 @@ export default function ContentPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-gray-400 text-lg mb-12 max-w-xl mx-auto"
           >
-            Follow the journey. No filter, no BS &mdash; just the grind and everything
+            Follow the journey. No filter, no BS, just the grind and everything
             that comes with it.
           </motion.p>
 

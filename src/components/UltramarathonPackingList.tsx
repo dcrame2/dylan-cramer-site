@@ -36,7 +36,7 @@ const categories: PackingCategory[] = [
       { name: "Shorts" },
       { name: "Calf sleeves" },
       { name: "Running pants/tights", note: "For when temps drop at night" },
-      { name: "Winter hat", note: "Night miles get cold — even in summer" },
+      { name: "Winter hat", note: "Night miles get cold, even in summer" },
       { name: "Gloves" },
     ],
   },
@@ -58,7 +58,7 @@ const categories: PackingCategory[] = [
       { name: "LMNT Salt Drink" },
       { name: "Salt Chew Tablets" },
       { name: "Precision Hydration carb mix" },
-      { name: "Cheez-Its", note: "Salty crunchy savory — exactly what you'll crave" },
+      { name: "Cheez-Its", note: "Salty crunchy savory. Exactly what you'll crave" },
       { name: "Gum" },
       { name: "Pickle Juice", note: "Cramp killer" },
     ],
@@ -95,7 +95,7 @@ const categories: PackingCategory[] = [
     icon: "💊",
     items: [
       { name: "Biofreeze spray or roller" },
-      { name: "Ibuprofen", note: "Use sparingly — hard on kidneys during long efforts" },
+      { name: "Ibuprofen", note: "Use sparingly, hard on kidneys during long efforts" },
       { name: "Pepto Bismol" },
       { name: "Imodium", note: "Stomach issues are when, not if" },
       { name: "Muscle scraper" },
@@ -257,7 +257,7 @@ export default function UltramarathonPackingList() {
             className="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl"
           >
             Everything I pack for 50-milers and 100-milers. Check items off as
-            you pack — your progress saves automatically.
+            you pack. Your progress saves automatically.
           </motion.p>
           <motion.div
             initial={{ opacity: 0 }}

@@ -17,19 +17,19 @@ const timeline = [
   {
     year: "2025",
     title: "Ironman Wisconsin",
-    detail: "13:54:29 — full 140.6. Everything changed.",
+    detail: "13:54:29. Full 140.6. Everything changed.",
     icon: "IM",
   },
   {
     year: "2025",
     title: "Tunnel Hill 100mi",
-    detail: "25:53:47 — back for 100 more miles.",
+    detail: "25:53:47. Back for 100 more miles.",
     icon: "TH",
   },
   {
     year: "2025",
     title: "BPN 50 Mile Ultra",
-    detail: "~9 hours — Nov 2025.",
+    detail: "~9 hours. Nov 2025.",
     icon: "50",
   },
   {
@@ -47,7 +47,7 @@ const timeline = [
   {
     year: "2025",
     title: "Frozen Gnome 50K",
-    detail: "6:46:12 — 50K in the dead of winter.",
+    detail: "6:46:12. 50K in the dead of winter.",
     icon: "FG",
   },
   {
@@ -59,49 +59,49 @@ const timeline = [
   {
     year: "2024",
     title: "IRONMAN 70.3 Wisconsin",
-    detail: "6:14:11 — first half Ironman.",
+    detail: "6:14:11. First half Ironman.",
     icon: "70",
   },
   {
     year: "2024",
     title: "Chicago Triathlon",
-    detail: "2:54:26 — back for round two.",
+    detail: "2:54:26. Back for round two.",
     icon: "CT",
   },
   {
     year: "2024",
     title: "Escape Alcatraz Triathlon",
-    detail: "3:08:57 — swam out of Alcatraz.",
+    detail: "3:08:57. Swam out of Alcatraz.",
     icon: "EA",
   },
   {
     year: "2023",
     title: "Indianapolis Marathon",
-    detail: "3:54:20 — first full marathon.",
+    detail: "3:54:20. First full marathon.",
     icon: "MR",
   },
   {
     year: "2023",
     title: "Fontana Triathlon",
-    detail: "3:00:35 — Geneva Lake, Wisconsin.",
+    detail: "3:00:35. Geneva Lake, Wisconsin.",
     icon: "FT",
   },
   {
     year: "2023",
     title: "Chicago Triathlon",
-    detail: "First multi-sport finish — hooked immediately.",
+    detail: "First multi-sport finish. Hooked immediately.",
     icon: "CT",
   },
   {
     year: "2023",
     title: "Chicago 13.1 Half Marathon",
-    detail: "1:48:52 — first half marathon finish.",
+    detail: "1:48:52. First half marathon finish.",
     icon: "HM",
   },
   {
     year: "2023",
     title: "Shamrock Shuffle 8K",
-    detail: "41:43 — first race in the books.",
+    detail: "41:43. First race in the books.",
     icon: "SS",
   },
 ];
@@ -237,7 +237,7 @@ export default function AboutPage() {
                 <span className="text-red-500">Never Enough.</span>
               </h2>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I&apos;m Dylan Cramer — a software developer by day who refuses to sit still.
+                I&apos;m Dylan Cramer, a software developer by day who refuses to sit still.
                 When I&apos;m not writing code at my 9-5 or building{" "}
                 <span className="text-red-500 font-semibold">InstaCal</span>,
                 you&apos;ll find me training for my next Ironman, running ultras through
@@ -257,8 +257,8 @@ export default function AboutPage() {
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 Outside of racing, I like to party, hit music festivals and concerts,
-                and live life to the absolute fullest. I document it all — raw,
-                authentic, documentary-style — because this life is meant to be shared.
+                and live life to the absolute fullest. I document it all, raw,
+                authentic, documentary-style, because this life is meant to be shared.
               </p>
 
               {/* Tags */}
@@ -428,13 +428,13 @@ export default function AboutPage() {
                 What Drives Me
               </h2>
               <p className="text-lg text-gray-300 leading-relaxed">
-                There&apos;s a moment in every race — mile 80 of a 100-miler, hour 12 of an
-                Ironman — when your body tells you to stop. Your legs are gone. Your mind
+                There&apos;s a moment in every race. Mile 80 of a 100-miler, hour 12 of an
+                Ironman, when your body tells you to stop. Your legs are gone. Your mind
                 is begging you to quit. That&apos;s the moment that defines you.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 One more mile. One more rep. One more commit. One more video. It&apos;s not
-                about being the fastest or the most talented — it&apos;s about refusing to
+                about being the fastest or the most talented. It&apos;s about refusing to
                 stop when it gets hard.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
@@ -517,7 +517,7 @@ export default function AboutPage() {
                 title: "Software Developer",
                 time: "9:00 AM - 5:00 PM",
                 description:
-                  "Full-time software developer during the day. Writing code, shipping features, and solving problems — it pays the bills and fuels the rest.",
+                  "Full-time software developer during the day. Writing code, shipping features, and solving problems. It pays the bills and fuels the rest.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
@@ -528,7 +528,7 @@ export default function AboutPage() {
                 title: "Endurance Athlete",
                 time: "4:00 AM & 6:00 PM",
                 description:
-                  "Training before sunrise and after the laptop closes. Swim, bike, run — sometimes all in the same day. Ironman and ultramarathon training never stops.",
+                  "Training before sunrise and after the laptop closes. Swim, bike, run, sometimes all in the same day. Ironman and ultramarathon training never stops.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
@@ -540,7 +540,7 @@ export default function AboutPage() {
                 title: "Content Creator",
                 time: "Nights & Weekends",
                 description:
-                  "Documenting the journey — raw, authentic, documentary-style. Filming races, editing videos, and building a community around doing the most with your time.",
+                  "Documenting the journey. Raw, authentic, documentary-style. Filming races, editing videos, and building a community around doing the most with your time.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
@@ -652,7 +652,7 @@ export default function AboutPage() {
               Come Along<span className="text-red-500">.</span>
             </h2>
             <p className="text-lg text-gray-400 max-w-xl mx-auto mb-12">
-              I share everything — the training, the races, the app builds, the wins,
+              I share everything. The training, the races, the app builds, the wins,
               and the suffering. Follow along on your favorite platform.
             </p>
           </motion.div>

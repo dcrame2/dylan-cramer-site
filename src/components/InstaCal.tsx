@@ -109,7 +109,7 @@ export default function InstaCal() {
               I built InstaCal because I needed a calorie tracker that actually fits
               how I live. Snap a photo to track your macros, share meals with friends,
               discover food on a map, and chat with an AI dietitian. It&apos;s the
-              nutrition app I always wanted — now it&apos;s yours too.
+              nutrition app I always wanted, and now it&apos;s yours too.
             </p>
 
             {/* Features grid */}

@@ -274,7 +274,7 @@ export default function IronmanGuide() {
                     That&apos;s 140.6 miles in total. You have 17 hours from the
                     moment the cannon goes off to cross that finish line. Most
                     people finish between 12 and 16 hours. The swim takes place
-                    in open water -- a lake, ocean, or river. The bike course
+                    in open water: a lake, ocean, or river. The bike course
                     covers 112 miles of road. And then you run a full marathon.
                     After already swimming and biking for 8-10 hours.
                   </p>
@@ -319,7 +319,7 @@ export default function IronmanGuide() {
                 </p>
                 <Tip>
                   The hardest part is not race day. It&apos;s the months of
-                  training before it -- the early mornings, the long weekends on
+                  training before it. The early mornings, the long weekends on
                   the bike, the sessions when you&apos;d rather do anything
                   else. Race day is the celebration. The training is the real
                   test.
@@ -496,7 +496,7 @@ export default function IronmanGuide() {
                   </span>{" "}
                   are one of the most important types of training for Ironman.
                   A &ldquo;brick&rdquo; means doing two disciplines back to
-                  back -- typically a bike ride followed immediately by a run.
+                  back, typically a bike ride followed immediately by a run.
                   This trains your body to run on tired legs, which is exactly
                   what race day demands. Your legs will feel like concrete
                   blocks the first time. That&apos;s normal. It gets better.
@@ -546,8 +546,8 @@ export default function IronmanGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Sighting means lifting your head while swimming to see where
                   you&apos;re going. In a pool, you just follow the lane. In
-                  open water, you need to pick a landmark -- a buoy, a building,
-                  a tree on shore -- and sight every 6-10 strokes to swim
+                  open water, you need to pick a landmark, like a buoy, a building,
+                  or a tree on shore, and sight every 6-10 strokes to swim
                   straight. Bad sighting can add hundreds of extra meters to your
                   swim. Practice this in the pool by swimming with your eyes
                   closed and checking your drift.
@@ -570,7 +570,7 @@ export default function IronmanGuide() {
                   A wetsuit adds buoyancy and makes you faster even if you&apos;re
                   a weak swimmer. Rent one first to find the right fit before
                   buying. Practice swimming in your wetsuit at least 5-6 times
-                  before race day -- the restricted shoulder movement takes
+                  before race day. The restricted shoulder movement takes
                   getting used to.
                 </p>
                 <Tip>
@@ -607,7 +607,7 @@ export default function IronmanGuide() {
                   You need to spend time in the saddle. There is no shortcut.
                   Build up to rides of 80, 90, 100, and eventually 112 miles
                   during your peak training. These rides teach your body to burn
-                  fat efficiently, build muscular endurance, and -- critically --
+                  fat efficiently, build muscular endurance, and, critically,
                   teach you how to eat and drink on the bike.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
@@ -618,7 +618,7 @@ export default function IronmanGuide() {
                   This is your fueling window. If you under-eat on the bike,
                   your marathon will be a death march. Practice your nutrition on
                   every long ride. Figure out what your stomach can tolerate at
-                  race pace -- gels, bars, sports drink, real food. Don&apos;t
+                  race pace: gels, bars, sports drink, real food. Don&apos;t
                   try anything new on race day.
                 </p>
                 <SectionImage
@@ -643,7 +643,7 @@ export default function IronmanGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   You do NOT need a $10,000 tri bike for your first Ironman.
                   A road bike with clip-on aero bars is perfectly fine. Make
-                  sure it fits you properly -- get a professional bike fit.
+                  sure it fits you properly. Get a professional bike fit.
                   A bad fit over 112 miles will wreck your back, neck, and
                   knees. Other essentials: flat repair kit, spare tube, CO2
                   inflator, and cycling shoes if you use clipless pedals.
@@ -681,7 +681,7 @@ export default function IronmanGuide() {
                 </h3>
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   The single most important type of run training for Ironman is
-                  the brick run -- running immediately after a long bike ride.
+                  the brick run, running immediately after a long bike ride.
                   The first mile off the bike feels absolutely terrible. Your
                   legs feel like they belong to someone else. That sensation
                   never fully goes away, but brick training teaches your body to
@@ -690,7 +690,7 @@ export default function IronmanGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Start with 15-20 minute brick runs after your long rides and
                   build up to 45-60 minutes by peak training. These don&apos;t
-                  need to be fast -- just get your legs moving off the bike.
+                  need to be fast. Just get your legs moving off the bike.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
                   Pacing Strategy
@@ -698,7 +698,7 @@ export default function IronmanGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Your Ironman marathon pace will be 60-90 seconds per mile
                   slower than your standalone marathon pace. Accept this now.
-                  Start the run conservatively -- slower than you think you need
+                  Start the run conservatively, slower than you think you need
                   to. A good strategy is to run the first 6 miles at an easy,
                   comfortable pace, then settle into your target pace from miles
                   6-20, and then give everything you have left for the final 10K.
@@ -786,7 +786,7 @@ export default function IronmanGuide() {
                   . Use gels, cola (the caffeine and sugar are clutch late in
                   the race), broth at aid stations, and whatever you can stomach.
                   Many people switch to real food in the back half of the
-                  marathon -- pretzels, boiled potatoes with salt, even cookies.
+                  marathon: pretzels, boiled potatoes with salt, even cookies.
                   If it has calories and you can keep it down, eat it.
                 </p>
                 <Tip>
@@ -857,7 +857,7 @@ export default function IronmanGuide() {
                       item: "Flat Kit",
                       need: "Essential",
                       detail:
-                        "Spare tube, tire levers, CO2 inflator or mini pump. Practice changing a flat before race day. A flat is not a DNF -- it's a 5-minute delay.",
+                        "Spare tube, tire levers, CO2 inflator or mini pump. Practice changing a flat before race day. A flat is not a DNF. It's a 5-minute delay.",
                     },
                   ].map((g) => (
                     <div
@@ -901,8 +901,8 @@ export default function IronmanGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   An Ironman is 30% physical, 70% mental. Your body will be
                   trained. Your fitness will be there. But at some point during
-                  the race -- maybe mile 80 on the bike, maybe mile 16 of the
-                  marathon -- you will want to quit. Every Ironman finisher has
+                  the race, maybe mile 80 on the bike, maybe mile 16 of the
+                  marathon, you will want to quit. Every Ironman finisher has
                   been there.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
@@ -989,7 +989,7 @@ export default function IronmanGuide() {
                   These are the specific lessons I learned finishing Ironman
                   Wisconsin in{" "}
                   <span className="text-white font-semibold">13:54:29</span>.
-                  Not generic advice -- these are things I wish someone had told
+                  Not generic advice. These are things I wish someone had told
                   me.
                 </p>
                 <div className="space-y-4 my-6">
@@ -1040,7 +1040,7 @@ export default function IronmanGuide() {
                       num: "08",
                       title: "The last mile is the best mile of your life",
                       detail:
-                        "When you turn onto the finisher's chute and hear the crowd, when the announcer calls your name and says those words -- \"YOU ARE AN IRONMAN\" -- nothing else matters. Every early morning, every long ride, every hard run leads to that moment. Soak it in.",
+                        "When you turn onto the finisher's chute and hear the crowd, when the announcer calls your name and says those words, \"YOU ARE AN IRONMAN,\" nothing else matters. Every early morning, every long ride, every hard run leads to that moment. Soak it in.",
                     },
                   ].map((tip) => (
                     <div

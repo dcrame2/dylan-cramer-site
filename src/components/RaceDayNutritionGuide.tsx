@@ -255,12 +255,12 @@ export default function RaceDayNutritionGuide() {
                     of glycogen in your muscles and liver. During hard exercise, you
                     burn 600-1,000 calories per hour. That means your stored fuel
                     runs out in 2-3 hours. After that, if you&apos;re not replacing
-                    calories, you bonk -- a catastrophic loss of energy where your
+                    calories, you bonk, a catastrophic loss of energy where your
                     pace drops 30-50% and your brain stops cooperating.
                   </p>
                   <p className="text-gray-300 text-lg leading-relaxed mb-4">
                     During an Ironman, you burn 8,000-10,000 calories. During a 100-
-                    mile ultra, 10,000-12,000+. You can&apos;t replace all of it --
+                    mile ultra, 10,000-12,000+. You can&apos;t replace all of it because
                     your gut can only absorb so much. But the difference between a
                     well-fueled race and a poorly-fueled one is the difference
                     between crossing the finish line strong or crawling across it,
@@ -301,7 +301,7 @@ export default function RaceDayNutritionGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   How much you need to take in depends on the sport, intensity,
                   and duration. Here are practical targets based on what your gut
-                  can actually absorb (not what you burn -- you&apos;ll always run
+                  can actually absorb (not what you burn, since you&apos;ll always run
                   a calorie deficit in a long race):
                 </p>
                 <div className="overflow-x-auto my-6">
@@ -413,7 +413,7 @@ export default function RaceDayNutritionGuide() {
                   </span>
                   . For a 70kg (154lb) athlete, that&apos;s 560-840 grams of carbs
                   daily. This is a LOT of carbs. You will feel bloated. That&apos;s
-                  normal -- glycogen binds with water, so you&apos;ll gain 2-4
+                  normal. Glycogen binds with water, so you&apos;ll gain 2-4
                   pounds of water weight. This is a good thing. That water helps
                   with hydration on race day.
                 </p>
@@ -458,7 +458,7 @@ export default function RaceDayNutritionGuide() {
                   A simple carb-loading meal: 2 cups white rice + grilled chicken
                   + soy sauce. That&apos;s roughly 100g of carbs, easy on the
                   stomach, and you can eat it 3-4 times a day. Boring? Yes. But
-                  your glycogen stores don&apos;t care about flavor -- they care
+                  your glycogen stores don&apos;t care about flavor. They care
                   about volume.
                 </Tip>
               </div>
@@ -548,7 +548,7 @@ export default function RaceDayNutritionGuide() {
                 </p>
                 <Tip>
                   Practice your pre-race meal before every long training session.
-                  By race day, your morning routine should be automatic -- same
+                  By race day, your morning routine should be automatic: same
                   food, same timing, same quantities. Eliminate all decision-making
                   from race morning. You have enough to think about.
                 </Tip>
@@ -584,7 +584,7 @@ export default function RaceDayNutritionGuide() {
                   </span>{" "}
                   from the moment you start riding. Set a timer on your bike
                   computer to beep every 20 minutes as a reminder to eat or drink.
-                  Don&apos;t wait until you feel hungry -- by then you&apos;re
+                  Don&apos;t wait until you feel hungry. By then you&apos;re
                   already 30-45 minutes behind on fueling.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
@@ -729,7 +729,7 @@ export default function RaceDayNutritionGuide() {
                   you can&apos;t sip, pour water on yourself and keep moving. Even
                   small amounts of calories keep your blood sugar stable enough to
                   function. A single cup of cola every 15 minutes is 50-60
-                  calories per hour -- not ideal, but enough to keep you moving
+                  calories per hour. Not ideal, but enough to keep you moving
                   when your stomach has shut down.
                 </Tip>
               </div>
@@ -840,7 +840,7 @@ export default function RaceDayNutritionGuide() {
                   Caffeine is one of the most well-researched and effective legal
                   performance enhancers in endurance sports. It reduces perceived
                   effort, delays fatigue, increases fat oxidation, and improves
-                  focus -- all of which matter enormously in a race lasting 5-17
+                  focus, all of which matter enormously in a race lasting 5-17
                   hours.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
@@ -904,13 +904,13 @@ export default function RaceDayNutritionGuide() {
                   sensitive to caffeine, test it extensively in training. Caffeine
                   can cause GI distress, jitters, and elevated heart rate in
                   sensitive individuals. Also, don&apos;t reduce your daily caffeine
-                  intake in the weeks before a race -- withdrawal headaches on race
+                  intake in the weeks before a race. Withdrawal headaches on race
                   morning are brutal.
                 </p>
                 <Tip>
                   Save your biggest caffeine hit for the back half of the race when
                   fatigue is highest and you need it most. Taking 200mg of caffeine
-                  at mile 1 is wasted -- you&apos;re already alert and energized.
+                  at mile 1 is wasted. You&apos;re already alert and energized.
                   Taking 100mg at mile 18 of the marathon when you&apos;re falling
                   asleep on your feet? That&apos;s a game-changer.
                 </Tip>
@@ -1016,8 +1016,8 @@ export default function RaceDayNutritionGuide() {
                   Bonking (Hitting the Wall)
                 </h3>
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                  If you bonk -- sudden fatigue, dizziness, inability to maintain
-                  pace -- your blood sugar has crashed. You need fast-acting sugar
+                  If you bonk (sudden fatigue, dizziness, inability to maintain
+                  pace), your blood sugar has crashed. You need fast-acting sugar
                   immediately. Cola, a gel with water, or any simple carbohydrate.
                   It takes 10-15 minutes for ingested carbs to hit your
                   bloodstream. Walk or easy spin while you wait. The bonk is
@@ -1029,7 +1029,7 @@ export default function RaceDayNutritionGuide() {
                 </h3>
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Muscle cramps during racing are usually caused by a combination
-                  of fatigue, dehydration, and electrolyte depletion -- not just
+                  of fatigue, dehydration, and electrolyte depletion, not just
                   one factor. If you start cramping, immediately take sodium
                   (salt capsule, broth, or pickle juice if available), drink
                   water, and slow your pace. Stretch gently if possible. Cramps
@@ -1039,7 +1039,7 @@ export default function RaceDayNutritionGuide() {
                 <Tip>
                   The worst thing you can do when nutrition goes wrong is panic
                   and stop eating entirely. Even if your stomach is upset, keep
-                  taking in small sips of liquid calories -- 2-3 sips of cola
+                  taking in small sips of liquid calories, like 2-3 sips of cola
                   every 5 minutes. Complete nutritional shutdown is a downward
                   spiral you cannot recover from. Something is always better than
                   nothing.
@@ -1060,7 +1060,7 @@ export default function RaceDayNutritionGuide() {
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
                   Here are the actual nutrition plans I used for two very different
-                  races. Not theoretical -- these are what I ate, when I ate it,
+                  races. Not theoretical. These are what I ate, when I ate it,
                   and how it worked.
                 </p>
 
@@ -1188,7 +1188,7 @@ export default function RaceDayNutritionGuide() {
                 <Tip>
                   No nutrition plan survives a race perfectly. The plan gives you
                   structure and targets. When your stomach says no at mile 65, you
-                  adapt -- smaller amounts, different foods, more liquid. The
+                  adapt: smaller amounts, different foods, more liquid. The
                   athletes who fall apart are the ones with no plan at all, not the
                   ones whose plan needed adjusting.
                 </Tip>
@@ -1241,11 +1241,11 @@ export default function RaceDayNutritionGuide() {
                     },
                     {
                       need: "Sodium & Electrolytes",
-                      why: "Replace what you sweated out. Salty foods, electrolyte drinks. Your body may crave salt -- listen to it.",
+                      why: "Replace what you sweated out. Salty foods, electrolyte drinks. Your body may crave salt. Listen to it.",
                     },
                     {
                       need: "Water",
-                      why: "Rehydrate. Drink to thirst. Monitor urine color -- aim for pale yellow within 24 hours.",
+                      why: "Rehydrate. Drink to thirst. Monitor urine color, aiming for pale yellow within 24 hours.",
                     },
                     {
                       need: "Anti-inflammatory Foods",
@@ -1270,14 +1270,14 @@ export default function RaceDayNutritionGuide() {
                   is not the time to count calories or restrict. Your metabolism
                   is elevated, your muscles are rebuilding, and your immune system
                   is suppressed. Feed it quality food in generous quantities.
-                  Pizza, burgers, and ice cream are also acceptable -- you earned
+                  Pizza, burgers, and ice cream are also acceptable. You earned
                   it.
                 </p>
                 <Tip>
                   After Ironman Wisconsin, I ate a large pizza, a milkshake, and
                   a bag of chips within 3 hours of finishing. The next morning I
                   ate the biggest breakfast of my life. I was still hungry. Your
-                  body is not being greedy -- it genuinely needs those calories.
+                  body is not being greedy. It genuinely needs those calories.
                   Don&apos;t fight it. Eat until you&apos;re satisfied, then eat
                   a little more.
                 </Tip>

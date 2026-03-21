@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Ultramarathon Packing List | Dylan Cramer",
   description:
-    "The complete ultramarathon packing list from a 100-mile finisher. Clothing, fuel, gear, and pain relief — everything you need on race day.",
+    "The complete ultramarathon packing list from a 100-mile finisher. Clothing, fuel, gear, and pain relief. Everything you need on race day.",
 };
 
 export default function UltramarathonPackingListPage() {

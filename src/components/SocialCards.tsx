@@ -31,7 +31,7 @@ const platforms = [
     name: "YouTube",
     handle: "@dylcramer",
     url: "https://www.youtube.com/@dylcramer",
-    description: "Longer form content — race recaps, training vlogs, and the full journey documented.",
+    description: "Longer form content. Race recaps, training vlogs, and the full journey documented.",
     color: "from-red-600 to-red-400",
     icon: (
       <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">

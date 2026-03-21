@@ -245,7 +245,7 @@ export default function OpenWaterSwimGuide() {
                     If you can swim 2,000 meters in a pool, you have the
                     fitness for open water. But fitness is only half the
                     equation. Open water swimming is a completely different
-                    skill set. The pool is controlled -- lane lines, a black
+                    skill set. The pool is controlled: lane lines, a black
                     line on the bottom, walls to push off, clear water, and a
                     consistent depth. Open water has none of that.
                   </p>
@@ -280,7 +280,7 @@ export default function OpenWaterSwimGuide() {
                   </div>
                   <Tip>
                     Get into open water at least 8-10 times before your race.
-                    Your first session should be short -- just 10-15 minutes of
+                    Your first session should be short: just 10-15 minutes of
                     easy swimming to acclimate. Don&apos;t worry about distance.
                     Get comfortable with the feeling. The distance comes later.
                   </Tip>
@@ -322,7 +322,7 @@ export default function OpenWaterSwimGuide() {
                   Fit Is Everything
                 </h3>
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                  A wetsuit should fit like a second skin -- tight everywhere
+                  A wetsuit should fit like a second skin: tight everywhere
                   with no air pockets, but not so tight that it restricts
                   breathing or shoulder movement. The neck seal should be snug
                   but not choking. Water should not be flushing in and out
@@ -344,7 +344,7 @@ export default function OpenWaterSwimGuide() {
                   Apply Body Glide or Trislide to your neck, wrists, and ankles
                   before putting on your wetsuit. This prevents chafing during
                   the swim and makes it significantly easier to strip off in
-                  transition. Practice wetsuit removal at home -- it&apos;s a
+                  transition. Practice wetsuit removal at home. It&apos;s a
                   skill that saves 30-60 seconds in T1.
                 </Tip>
               </div>
@@ -372,7 +372,7 @@ export default function OpenWaterSwimGuide() {
                       The crocodile eyes technique.
                     </span>{" "}
                     Lift your head just enough to get your goggles above the
-                    waterline -- like a crocodile. You don&apos;t need to see
+                    waterline, like a crocodile. You don&apos;t need to see
                     perfectly. You just need to locate the next buoy or
                     landmark. Then immediately drop your head back down and
                     resume your stroke.
@@ -400,7 +400,7 @@ export default function OpenWaterSwimGuide() {
                       Use landmarks, not just buoys.
                     </span>{" "}
                     Buoys are small and hard to see in waves. Find a tall,
-                    stationary landmark behind the buoy -- a building, a tree,
+                    stationary landmark behind the buoy: a building, a tree,
                     a flagpole. Aim for the big target and you&apos;ll
                     naturally hit the buoy.
                   </p>
@@ -479,7 +479,7 @@ export default function OpenWaterSwimGuide() {
                 </p>
                 <Tip>
                   Practice drafting in group open water swims before race day.
-                  Swimming close to other people takes practice -- the contact,
+                  Swimming close to other people takes practice: the contact,
                   the reduced visibility, the pace matching. It&apos;s a skill,
                   not just a positioning choice.
                 </Tip>
@@ -542,7 +542,7 @@ export default function OpenWaterSwimGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   If you&apos;re swimming against a current, angle slightly
                   into it to maintain your line. Swimming directly against a
-                  strong current is exhausting -- angle into it at 10-15
+                  strong current is exhausting. Angle into it at 10-15
                   degrees and let your forward motion carry you toward the
                   target. With a following current, relax and enjoy the free
                   speed. Sight less often since the current is pushing you
@@ -568,7 +568,7 @@ export default function OpenWaterSwimGuide() {
                   Pool water is a comfortable 78-82 degrees. Open water can be
                   anywhere from 55 to 78 degrees depending on location and
                   time of year. The cold shock response when you first enter
-                  cold water is real -- rapid breathing, elevated heart rate,
+                  cold water is real: rapid breathing, elevated heart rate,
                   and a panicky feeling. If you&apos;ve never experienced it,
                   it can cause a full-blown panic attack on race morning.
                 </p>
@@ -783,7 +783,7 @@ export default function OpenWaterSwimGuide() {
                   The most common open water training venue for triathletes.
                   Look for designated swimming areas with lifeguards. Many
                   state parks and recreation areas have swim beaches. Join a
-                  local triathlon club -- they often organize group lake swims
+                  local triathlon club. They often organize group lake swims
                   with safety kayakers.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
@@ -805,7 +805,7 @@ export default function OpenWaterSwimGuide() {
                   clubs, masters swim groups, and local organizations often host
                   weekly open water sessions in the summer. You get safety
                   support, people to draft off, and the experience of swimming
-                  near other bodies -- which is exactly what race day feels
+                  near other bodies, which is exactly what race day feels
                   like.
                 </p>
                 <Tip>
@@ -876,7 +876,7 @@ export default function OpenWaterSwimGuide() {
                 </h3>
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Be aware of swimmers around you. Don&apos;t swim directly
-                  over someone slower -- go around. If drafting off someone,
+                  over someone slower. Go around. If drafting off someone,
                   don&apos;t grab their feet. Communicate with hand signals
                   or shouts if you need to stop. And always let the group
                   know your planned route and turnaround point before getting
@@ -941,7 +941,7 @@ export default function OpenWaterSwimGuide() {
                       num: "06",
                       title: "Chicago lakefront for cold water training",
                       detail:
-                        "Lake Michigan in May-June is cold. Like 55-60 degrees cold. Training there made Ironman Wisconsin's 70-degree water feel like a bathtub. Seek out cold water training if you can -- it builds immense confidence.",
+                        "Lake Michigan in May-June is cold. Like 55-60 degrees cold. Training there made Ironman Wisconsin's 70-degree water feel like a bathtub. Seek out cold water training if you can. It builds immense confidence.",
                     },
                     {
                       num: "07",

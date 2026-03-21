@@ -242,7 +242,7 @@ export default function ContentCreationGuide() {
                     <span className="text-red-500">.</span>
                   </h2>
                   <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                    You&apos;re already doing the hard part -- training,
+                    You&apos;re already doing the hard part: training,
                     racing, pushing your limits. Creating content around that
                     journey is one of the highest-leverage things you can do.
                     Not for vanity metrics. For connection, opportunity, and
@@ -263,7 +263,7 @@ export default function ContentCreationGuide() {
                     You&apos;re not competing with production studios. You&apos;re
                     competing for attention with authenticity. And athletes have
                     an unfair advantage: our content is inherently interesting.
-                    Suffering, triumph, transformation -- these are the stories
+                    Suffering, triumph, transformation. These are the stories
                     people are drawn to.
                   </p>
                 </motion.div>
@@ -406,8 +406,8 @@ export default function ContentCreationGuide() {
                   Create 2-3 &ldquo;template&rdquo; editing styles that you
                   reuse. A training montage template, a race day recap
                   template, and a talking head/advice template. When you sit
-                  down to edit, you&apos;re not starting from scratch --
-                  you&apos;re plugging new footage into a proven format.
+                  down to edit, you&apos;re not starting from scratch.
+                  You&apos;re plugging new footage into a proven format.
                 </Tip>
               </div>
 
@@ -422,7 +422,7 @@ export default function ContentCreationGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Good content is not about fancy editing or expensive gear.
                   It&apos;s about storytelling. Every piece of content you post
-                  should follow a structure -- even a 15-second Reel.
+                  should follow a structure, even a 15-second Reel.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
                   The 3 Frameworks That Work
@@ -434,8 +434,8 @@ export default function ContentCreationGuide() {
                     </p>
                     <p className="text-sm text-gray-400 leading-relaxed">
                       Open with a bold statement or dramatic moment.
-                      Show the hard part -- the suffering, the early mornings,
-                      the doubt. End with the payoff -- the finish line, the
+                      Show the hard part: the suffering, the early mornings,
+                      the doubt. End with the payoff: the finish line, the
                       PR, the breakthrough. This is the hero&apos;s journey
                       compressed into 30 seconds. Works for race recaps,
                       training montages, and milestone posts.
@@ -500,7 +500,7 @@ export default function ContentCreationGuide() {
                       num: "01",
                       title: "Race day content",
                       detail:
-                        "Nothing beats race day. The emotions, the atmosphere, the finish line. A race day Reel will outperform 10 training montages. Film EVERYTHING on race day -- the morning, the start line nerves, the suffering, the finish. You can create weeks of content from one race.",
+                        "Nothing beats race day. The emotions, the atmosphere, the finish line. A race day Reel will outperform 10 training montages. Film EVERYTHING on race day: the morning, the start line nerves, the suffering, the finish. You can create weeks of content from one race.",
                     },
                     {
                       num: "02",
@@ -512,7 +512,7 @@ export default function ContentCreationGuide() {
                       num: "03",
                       title: "Training montages with good music",
                       detail:
-                        "Clean cuts synced to a trending audio track. Swimming, biking, running -- show the volume. These are your bread and butter weekly posts. Keep them 15-30 seconds.",
+                        "Clean cuts synced to a trending audio track. Swimming, biking, running. Show the volume. These are your bread and butter weekly posts. Keep them 15-30 seconds.",
                     },
                     {
                       num: "04",
@@ -745,7 +745,7 @@ export default function ContentCreationGuide() {
                 <Tip>
                   Use voice memos during or after workouts to capture your
                   thoughts while they&apos;re fresh. &ldquo;That tempo run
-                  was brutal -- hit a wall at mile 5 but pushed through.&rdquo;
+                  was brutal. Hit a wall at mile 5 but pushed through.&rdquo;
                   These become captions, voiceovers, and content ideas later.
                   Takes 30 seconds and eliminates the
                   &ldquo;what do I post about?&rdquo; problem.
@@ -792,7 +792,7 @@ export default function ContentCreationGuide() {
                       Be consistent in your voice.
                     </span>{" "}
                     Whether your vibe is motivational, educational, funny, or
-                    raw -- own it. Don&apos;t try to be someone you&apos;re
+                    raw, own it. Don&apos;t try to be someone you&apos;re
                     not. The audience can smell inauthenticity instantly.
                   </p>
                   <p className="text-gray-300 text-lg leading-relaxed">
@@ -838,7 +838,7 @@ export default function ContentCreationGuide() {
                       path: "Affiliate Marketing",
                       threshold: "Any audience size",
                       detail:
-                        "Share affiliate links for gear, nutrition, and training tools you actually use. Amazon Associates, brand-specific affiliate programs, and platforms like LTK. Small per-sale commissions that add up. Be transparent -- always disclose affiliates.",
+                        "Share affiliate links for gear, nutrition, and training tools you actually use. Amazon Associates, brand-specific affiliate programs, and platforms like LTK. Small per-sale commissions that add up. Be transparent. Always disclose affiliates.",
                     },
                     {
                       path: "Coaching / Training Plans",
@@ -850,7 +850,7 @@ export default function ContentCreationGuide() {
                       path: "Your Own Products",
                       threshold: "Dedicated audience",
                       detail:
-                        "Build something for your audience. I built InstaCal. You could create a training journal, a nutrition guide, merchandise, or a course. Your audience already trusts you -- give them something valuable to buy.",
+                        "Build something for your audience. I built InstaCal. You could create a training journal, a nutrition guide, merchandise, or a course. Your audience already trusts you, so give them something valuable to buy.",
                     },
                     {
                       path: "Race/Event Partnerships",
@@ -921,7 +921,7 @@ export default function ContentCreationGuide() {
                       num: "04",
                       title: "Post schedule: Mon/Wed/Fri + Stories daily",
                       detail:
-                        "Three Reels per week is my baseline. Stories are low-effort daily updates -- a training screenshot, a meal photo, a quick thought. Stories take 30 seconds each.",
+                        "Three Reels per week is my baseline. Stories are low-effort daily updates: a training screenshot, a meal photo, a quick thought. Stories take 30 seconds each.",
                     },
                     {
                       num: "05",

@@ -120,7 +120,7 @@ export default function InstacalPage() {
               <p className="text-lg md:text-xl text-gray-400 max-w-lg mb-8 leading-relaxed">
                 InstaCal is the nutrition tracker with a social feed. Track your macros
                 with AI, discover what your friends are eating, and share your meals.
-                It&apos;s fitness meets social — the way tracking should be.
+                It&apos;s fitness meets social. The way tracking should be.
               </p>
 
               {/* App store buttons */}
@@ -315,7 +315,7 @@ export default function InstacalPage() {
               </h2>
               <p className="text-gray-400 leading-relaxed mb-8">
                 Every meal you log updates your daily macros in real time.
-                Beautiful, animated progress bars show exactly where you stand --
+                Beautiful, animated progress bars show exactly where you stand,
                 so you always know how much room you have left.
               </p>
               <a
@@ -395,7 +395,7 @@ export default function InstacalPage() {
                 Every calorie tracker I tried felt like a chore. Boring databases, zero
                 community, no way to see what the people around me were actually eating.
                 As someone training for Ironmans and running 100-milers, I needed to
-                know my nutrition was dialed — but I also wanted it to feel like opening
+                know my nutrition was dialed, but I also wanted it to feel like opening
                 Instagram, not a spreadsheet.
               </p>
               <p>
@@ -408,7 +408,7 @@ export default function InstacalPage() {
                 That app didn&apos;t exist. So I built it myself.
               </p>
               <p className="text-white font-semibold text-xl">
-                InstaCal is social nutrition — track what you eat, see what your
+                InstaCal is social nutrition. Track what you eat, see what your
                 friends eat, and make healthy choices together.
               </p>
             </motion.div>
@@ -584,7 +584,7 @@ export default function InstacalPage() {
             </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-10">
               Join thousands of people using InstaCal to eat smarter, train harder,
-              and build healthier habits -- together.
+              and build healthier habits, together.
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mb-8">

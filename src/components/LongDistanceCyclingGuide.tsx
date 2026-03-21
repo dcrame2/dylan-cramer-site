@@ -167,7 +167,7 @@ export default function LongDistanceCyclingGuide() {
             className="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl"
           >
             Everything you need to ride 100+ miles. From building your base to
-            dialing in nutrition, bike fit, and pacing -- written by someone who
+            dialing in nutrition, bike fit, and pacing. Written by someone who
             biked 112 miles during Ironman Wisconsin.
           </motion.p>
           <motion.div
@@ -244,14 +244,14 @@ export default function LongDistanceCyclingGuide() {
                   <p className="text-gray-300 text-lg leading-relaxed mb-4">
                     Long distance cycling is one of the most rewarding things you
                     can do as an endurance athlete. A century ride (100 miles) is
-                    the cycling equivalent of running a marathon -- it tests your
+                    the cycling equivalent of running a marathon. It tests your
                     fitness, your nutrition strategy, your mental toughness, and
                     your ability to suffer productively for 5-7 hours straight.
                   </p>
                   <p className="text-gray-300 text-lg leading-relaxed mb-4">
                     For triathletes, the bike leg is the longest portion of any
                     race. In a half Ironman, it&apos;s 56 miles. In a full Ironman,
-                    it&apos;s 112. The bike is where races are won or lost -- not
+                    it&apos;s 112. The bike is where races are won or lost, not
                     because you need to be the fastest cyclist, but because a smart
                     bike leg sets up everything that comes after it. Blow up on the
                     bike and your run becomes a death march.
@@ -309,7 +309,7 @@ export default function LongDistanceCyclingGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Start with 3 rides per week: two short rides (45-60 minutes) and
                   one longer ride (90 minutes to 2 hours). Keep the intensity easy
-                  -- you should be able to hold a conversation the entire time. The
+                  . You should be able to hold a conversation the entire time. The
                   goal is saddle time, not speed. Your body needs to adapt to the
                   position, the pedaling motion, and the sustained effort.
                 </p>
@@ -319,7 +319,7 @@ export default function LongDistanceCyclingGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Increase your long ride by 15-20% each week. If you rode 2 hours
                   last weekend, aim for 2:15 or 2:30 this weekend. Add one
-                  structured ride per week with intervals -- tempo efforts of 10-20
+                  structured ride per week with intervals: tempo efforts of 10-20
                   minutes at a pace where talking is difficult but not impossible.
                   This builds your aerobic engine faster than easy riding alone.
                 </p>
@@ -330,7 +330,7 @@ export default function LongDistanceCyclingGuide() {
                   By month three, your long ride should be approaching 3-4 hours.
                   Start incorporating back-to-back ride days to build durability.
                   Ride 3 hours on Saturday, then 90 minutes on Sunday. This teaches
-                  your body to perform on tired legs -- critical for century rides
+                  your body to perform on tired legs, critical for century rides
                   and Ironman racing.
                 </p>
                 <Tip>
@@ -355,7 +355,7 @@ export default function LongDistanceCyclingGuide() {
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   A century ride is a completely different beast than a 50-mile
-                  ride. It&apos;s not twice as hard -- it&apos;s exponentially
+                  ride. It&apos;s not twice as hard. It&apos;s exponentially
                   harder. The last 20 miles of a century feel nothing like the
                   first 20. Your glycogen is depleted, your muscles are fatigued,
                   and your brain is begging you to stop. That&apos;s exactly why
@@ -393,7 +393,7 @@ export default function LongDistanceCyclingGuide() {
                 <Tip>
                   Use a heart rate monitor or power meter to keep yourself honest
                   in the first half. Perceived effort is unreliable when you&apos;re
-                  fresh and excited -- objective data keeps you from blowing up
+                  fresh and excited. Objective data keeps you from blowing up
                   later. If you don&apos;t have a power meter, heart rate is a good
                   substitute. Stay in zone 2-3 for the first half.
                 </Tip>
@@ -409,7 +409,7 @@ export default function LongDistanceCyclingGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   A professional bike fit is the single best investment you can
                   make in long distance cycling. A bad fit over 20 miles is
-                  uncomfortable. A bad fit over 100 miles is destructive -- it will
+                  uncomfortable. A bad fit over 100 miles is destructive. It will
                   wreck your knees, back, neck, and hands, and it will cost you
                   significant power output.
                 </p>
@@ -422,7 +422,7 @@ export default function LongDistanceCyclingGuide() {
                   lower back pain. Too low and you overload your knees. A proper fit
                   gives you a slight bend (25-35 degrees) in your knee at the
                   bottom of the stroke. Saddle fore/aft position affects how your
-                  knee tracks over the pedal -- ideally your kneecap sits directly
+                  knee tracks over the pedal. Ideally your kneecap sits directly
                   above the pedal spindle when the crank is at 3 o&apos;clock.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
@@ -434,7 +434,7 @@ export default function LongDistanceCyclingGuide() {
                   against you at speeds above 15 mph. Getting low and narrow on
                   aero bars can save you 30-60 minutes over 112 miles compared to
                   riding upright on the hoods. But aero position uses different
-                  muscles -- primarily your hip flexors and lower back -- and
+                  muscles, primarily your hip flexors and lower back, and
                   requires gradual adaptation.
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
@@ -450,7 +450,7 @@ export default function LongDistanceCyclingGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Numbness in your hands and pain in your neck are the two most
                   common complaints on long rides. Change your hand position
-                  frequently -- tops, hoods, drops, aero bars. Padded gloves help.
+                  frequently: tops, hoods, drops, aero bars. Padded gloves help.
                   For neck pain, strengthen your neck and upper back with exercises
                   off the bike, and practice looking up periodically during rides
                   rather than staring at the ground 3 feet in front of your wheel.
@@ -460,7 +460,7 @@ export default function LongDistanceCyclingGuide() {
                   start heavy training, not right before your race. You need time
                   to adapt to any position changes. If something still hurts after
                   2-3 weeks of riding in the new position, go back to your fitter
-                  for adjustments -- most good fitters include follow-up visits.
+                  for adjustments. Most good fitters include follow-up visits.
                 </Tip>
               </div>
 
@@ -489,7 +489,7 @@ export default function LongDistanceCyclingGuide() {
                   it torches your quads and hamstrings. By mile 70, those muscles
                   are fried and you have nothing left. Spinning at 85-90 RPM in an
                   easier gear produces the same speed with less muscular strain.
-                  Your legs will be fresher for the later miles -- and if you&apos;re
+                  Your legs will be fresher for the later miles, and if you&apos;re
                   doing a triathlon, fresher for the run.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
@@ -551,8 +551,8 @@ export default function LongDistanceCyclingGuide() {
                 </div>
                 <Tip>
                   If you don&apos;t have a power meter, use heart rate or perceived
-                  effort. Zone 2 riding feels like you could sustain it all day --
-                  you can talk in full sentences, breathing is controlled, and
+                  effort. Zone 2 riding feels like you could sustain it all day.
+                  You can talk in full sentences, breathing is controlled, and
                   you&apos;re not sweating excessively. If you can&apos;t talk, you
                   are going too hard for a century pace.
                 </Tip>
@@ -576,7 +576,7 @@ export default function LongDistanceCyclingGuide() {
                   Pace by Power, Not Speed
                 </h3>
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                  Your speed on a climb will drop -- that&apos;s physics, not
+                  Your speed on a climb will drop. That&apos;s physics, not
                   fitness. What matters is your power output (or heart rate) staying
                   controlled. On a long climb, stay in Zone 2-3. Yes, people will
                   pass you. Yes, it feels slow. But they are burning matches that
@@ -591,7 +591,7 @@ export default function LongDistanceCyclingGuide() {
                   until you&apos;re halfway up and your cadence has dropped to 50
                   RPM, you&apos;ve already wasted energy. Anticipate the terrain
                   and downshift early. Maintain your cadence at 70-85 RPM on
-                  climbs -- this means using a much easier gear than you think.
+                  climbs, which means using a much easier gear than you think.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
                   Seated vs. Standing
@@ -680,7 +680,7 @@ export default function LongDistanceCyclingGuide() {
                 </div>
                 <Tip>
                   If you&apos;re new to group riding, join a &ldquo;no-drop&rdquo;
-                  ride first -- these rides wait for everyone and nobody gets left
+                  ride first. These rides wait for everyone and nobody gets left
                   behind. Most bike shops host weekly group rides organized by pace.
                   Start with the slower group and work up. There is no shame in
                   riding within your ability.
@@ -707,7 +707,7 @@ export default function LongDistanceCyclingGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Indoor training is superior to outdoor riding for structured
                   interval workouts. There are no stoplights, no traffic, no
-                  coasting downhill -- every second of the workout counts. A
+                  coasting downhill. Every second of the workout counts. A
                   60-minute indoor session can deliver more training stimulus than
                   a 90-minute outdoor ride because there&apos;s zero junk time.
                   Use the trainer for weekday workouts when time is tight, and save
@@ -721,7 +721,7 @@ export default function LongDistanceCyclingGuide() {
                   real people on virtual courses, join group rides, race, and
                   follow structured training plans. It makes the trainer
                   significantly more engaging than staring at a wall. The social
-                  element is real -- you&apos;ll find riding partners and push
+                  element is real. You&apos;ll find riding partners and push
                   yourself harder than you would alone.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
@@ -730,7 +730,7 @@ export default function LongDistanceCyclingGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Indoor rides longer than 2 hours are mentally brutal. Set up a
                   TV show, a movie, or use Zwift&apos;s longer routes. Have a fan
-                  blowing directly on you -- you sweat significantly more indoors
+                  blowing directly on you. You sweat significantly more indoors
                   because there&apos;s no natural wind cooling. Have water and
                   nutrition within reach. Most importantly, don&apos;t try to
                   replicate your outdoor long ride indoors minute-for-minute. A
@@ -738,7 +738,7 @@ export default function LongDistanceCyclingGuide() {
                   in training load because of the constant pedaling.
                 </p>
                 <Tip>
-                  Invest in a good fan. This is not optional -- it&apos;s the
+                  Invest in a good fan. This is not optional. It&apos;s the
                   single most important piece of indoor training equipment. A
                   proper fan keeps your body temperature manageable and your power
                   output higher. Without adequate cooling, your performance drops
@@ -757,7 +757,7 @@ export default function LongDistanceCyclingGuide() {
                   Long distance cycling nutrition is a skill, not an afterthought.
                   For rides over 2 hours, your body burns through its stored
                   glycogen and you must replace calories while riding. Fail to eat
-                  enough and you bonk -- a sudden, devastating loss of energy
+                  enough and you bonk, a sudden, devastating loss of energy
                   where your legs stop working and your brain fogs over. It&apos;s
                   the cycling equivalent of hitting the wall in a marathon, and
                   it&apos;s entirely preventable.
@@ -827,7 +827,7 @@ export default function LongDistanceCyclingGuide() {
                   </span>{" "}
                   depending on temperature and sweat rate. In hot conditions, you
                   may need 36+ oz per hour. Include electrolytes in at least one
-                  of your bottles -- plain water alone will dilute your sodium
+                  of your bottles. Plain water alone will dilute your sodium
                   levels over many hours (hyponatremia), which is dangerous.
                 </p>
                 <Tip>
@@ -947,7 +947,7 @@ export default function LongDistanceCyclingGuide() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Long distance cycling puts you on the road for hours. Cars,
                   road hazards, mechanical failures, and weather are all real
-                  risks. Respecting these risks is not paranoia -- it&apos;s what
+                  risks. Respecting these risks is not paranoia. It&apos;s what
                   keeps you riding for decades.
                 </p>
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
@@ -959,7 +959,7 @@ export default function LongDistanceCyclingGuide() {
                       Be visible.
                     </span>{" "}
                     Wear bright colors during the day. Use front and rear lights
-                    even in daylight -- a blinking rear light is visible from much
+                    even in daylight. A blinking rear light is visible from much
                     farther than a jersey. Avoid riding at dawn and dusk when
                     driver visibility is worst.
                   </p>
@@ -1040,7 +1040,7 @@ export default function LongDistanceCyclingGuide() {
                   caption="Bike to Run - The Hardest Transition"
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                  A brick workout means doing two disciplines back to back --
+                  A brick workout means doing two disciplines back to back,
                   typically a bike ride immediately followed by a run. The name
                   comes from how your legs feel when you start running after hours
                   in the saddle: like bricks. For triathletes, brick workouts are
@@ -1054,7 +1054,7 @@ export default function LongDistanceCyclingGuide() {
                   Your legs have been in a fixed, repetitive motion for hours. Your
                   hip flexors are shortened from the aero position. Your quads are
                   fatigued from pedaling. And now you have to run. The first mile
-                  off the bike is genuinely terrible -- your legs feel like they
+                  off the bike is genuinely terrible. Your legs feel like they
                   belong to someone else and your stride is completely off.
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">

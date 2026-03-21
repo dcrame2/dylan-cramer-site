@@ -42,7 +42,7 @@ const resources = [
     category: "Swimming",
     readTime: "18 min read",
     description:
-      "From pool to open water — wetsuits, sighting, drafting, race starts, and everything you need to swim confidently in any body of water.",
+      "From pool to open water. Wetsuits, sighting, drafting, race starts, and everything you need to swim confidently in any body of water.",
     href: "/resources/open-water-swimming-guide",
     image: "/images/gallery/open-water-swim.jpg",
     available: true,
@@ -82,7 +82,7 @@ const resources = [
     category: "Ultrarunning",
     readTime: "Interactive Checklist",
     description:
-      "The complete packing list from a 100-mile finisher. Clothing, fuel, gear, and pain relief — check items off as you pack.",
+      "The complete packing list from a 100-mile finisher. Clothing, fuel, gear, and pain relief. Check items off as you pack.",
     href: "/resources/ultramarathon-packing-list",
     image: "/images/gallery/ultra-crew.jpg",
     available: true,

@@ -7,7 +7,7 @@ const services = [
   {
     title: "Brand Partnerships",
     description:
-      "Authentic content creation for brands in fitness, endurance sports, tech, and lifestyle. I create reels, TikToks, and stories that actually convert — because my audience trusts me.",
+      "Authentic content creation for brands in fitness, endurance sports, tech, and lifestyle. I create reels, TikToks, and stories that actually convert because my audience trusts me.",
     features: [
       "Instagram Reels & Stories",
       "TikTok content",

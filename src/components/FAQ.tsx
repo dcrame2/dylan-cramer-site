@@ -7,7 +7,7 @@ const faqs = [
   {
     question: "What's the best way to reach you?",
     answer:
-      "DM me on Instagram @cramerdyl — that's where I'm most active and respond fastest. For brand deals and formal inquiries, email dcrame2@gmail.com.",
+      "DM me on Instagram @cramerdyl. That's where I'm most active and respond fastest. For brand deals and formal inquiries, email dcrame2@gmail.com.",
   },
   {
     question: "Are you open to brand collaborations?",
