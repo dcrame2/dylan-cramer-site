@@ -1,10 +1,9 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Gallery from "@/components/Gallery";
-import InstaCal from "@/components/InstaCal";
 import ContentSection from "@/components/ContentSection";
-import WorkWithMe from "@/components/WorkWithMe";
+import InstaCal from "@/components/InstaCal";
+import WorkWithMeBanner from "@/components/WorkWithMeBanner";
 import ConnectSection from "@/components/ConnectSection";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
@@ -15,10 +14,9 @@ export default function Home() {
       <Navigation />
       <Hero />
       <About />
-      <Gallery />
-      <InstaCal />
       <ContentSection />
-      <WorkWithMe />
+      <InstaCal />
+      <WorkWithMeBanner />
       <ConnectSection />
       <FAQ />
       <Footer />

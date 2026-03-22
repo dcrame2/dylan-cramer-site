@@ -337,7 +337,7 @@ export default function AboutPage() {
                 const isLeft = i % 2 === 0;
                 return (
                   <motion.div
-                    key={item.title}
+                    key={`${item.year}-${item.title}`}
                     initial={{
                       opacity: 0,
                       x: isLeft ? -40 : 40,

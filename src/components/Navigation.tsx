@@ -8,13 +8,12 @@ import Link from "next/link";
 const navLinks = [
   { href: "/about", label: "About" },
   { href: "/gallery", label: "Gallery" },
-  { href: "/connect", label: "Connect" },
+  { href: "/instacal", label: "InstaCal" },
+  { href: "/content", label: "Content" },
 ];
 
 const serviceLinks = [
   { href: "/services/portfolio", label: "Website Portfolio" },
-  { href: "/instacal", label: "InstaCal" },
-  { href: "/content", label: "Content" },
 ];
 
 const resourceLinks = [
@@ -81,7 +80,7 @@ export default function Navigation() {
             >
               <button
                 className={`text-sm uppercase tracking-widest transition-colors duration-300 flex items-center gap-1 ${
-                  pathname.startsWith("/services") || pathname === "/instacal" || pathname === "/content"
+                  pathname.startsWith("/services")
                     ? "text-red-500"
                     : "text-gray-400 hover:text-red-500"
                 }`}

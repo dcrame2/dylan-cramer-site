@@ -1,11 +1,33 @@
 "use client";
 
 import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 export default function ConnectSection() {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const [email, setEmail] = useState("");
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setStatus("loading");
+    try {
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      if (res.ok) {
+        setStatus("success");
+        setEmail("");
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
+  }
 
   return (
     <section id="connect" ref={ref} className="relative py-32 px-6 overflow-hidden">
@@ -44,29 +66,37 @@ export default function ConnectSection() {
             transition={{ delay: 0.4 }}
             className="max-w-md mx-auto mb-16"
           >
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                // Future: integrate with email service (ConvertKit, Mailchimp, etc.)
-              }}
-              className="flex flex-col sm:flex-row gap-3"
-            >
-              <input
-                type="email"
-                placeholder="your@email.com"
-                required
-                className="flex-1 px-4 py-3 bg-white/5 border border-white/20 text-white placeholder-gray-500 text-sm focus:outline-none focus:border-red-500 transition-colors rounded-xl"
-              />
-              <button
-                type="submit"
-                className="px-6 py-3 bg-red-600 text-white font-bold text-sm uppercase tracking-wider hover:bg-red-500 transition-colors whitespace-nowrap rounded-xl"
-              >
-                Join the Crew
-              </button>
-            </form>
-            <p className="text-[10px] text-gray-600 mt-2">
-              No spam. Just real updates from the journey.
-            </p>
+            {status === "success" ? (
+              <div className="px-4 py-3 bg-red-600/10 border border-red-600/30 rounded-xl">
+                <p className="text-sm text-red-400 font-bold">You&apos;re in! Welcome to the crew.</p>
+              </div>
+            ) : (
+              <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
+                <input
+                  type="email"
+                  placeholder="your@email.com"
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="flex-1 px-4 py-3 bg-white/5 border border-white/20 text-white placeholder-gray-500 text-sm focus:outline-none focus:border-red-500 transition-colors rounded-xl"
+                />
+                <button
+                  type="submit"
+                  disabled={status === "loading"}
+                  className="px-6 py-3 bg-red-600 text-white font-bold text-sm uppercase tracking-wider hover:bg-red-500 transition-colors whitespace-nowrap rounded-xl disabled:opacity-50"
+                >
+                  {status === "loading" ? "Joining..." : "Join the Crew"}
+                </button>
+              </form>
+            )}
+            {status === "error" && (
+              <p className="text-xs text-red-400 mt-2">Something went wrong. Try again.</p>
+            )}
+            {status !== "success" && (
+              <p className="text-[10px] text-gray-600 mt-2">
+                No spam. Just real updates from the journey.
+              </p>
+            )}
           </motion.div>
 
           {/* Big social links */}
