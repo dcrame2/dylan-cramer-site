@@ -28,11 +28,11 @@ export default function WorkWithMeBanner() {
                 Services
               </p>
               <h3 className="text-2xl md:text-3xl font-black uppercase tracking-tight text-white mb-2">
-                I Also Build <span className="text-red-500">Websites.</span>
+                I Also Build <span className="text-red-500">Apps & Websites.</span>
               </h3>
               <p className="text-gray-400 max-w-lg">
-                Custom websites for creators, athletes, and small businesses.
-                20+ sites built and counting. Clean design, mobile-first, built to convert.
+                Websites, web apps, and mobile apps for creators, athletes, and small businesses.
+                20+ projects built and counting. Clean design, mobile-first, built to convert.
               </p>
             </div>
 

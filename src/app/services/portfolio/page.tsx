@@ -4,9 +4,9 @@ import PortfolioPage from "@/components/PortfolioPage";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Website Portfolio | Dylan Cramer",
+  title: "Portfolio | Dylan Cramer",
   description:
-    "Websites built by Dylan Cramer — custom-designed, mobile-first sites for creators, athletes, and small businesses. See the work.",
+    "Websites, web apps, and mobile apps built by Dylan Cramer — custom-designed, mobile-first digital products for creators, athletes, and small businesses.",
 };
 
 export default function Portfolio() {

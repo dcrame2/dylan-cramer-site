@@ -25,14 +25,14 @@ const faqs = [
       "Ironman Wisconsin (13:54:29), Tunnel Hill 100 mile ultra, Chicago Triathlon, multiple 50-milers, and I'm currently training for Ironman Lake Placid in July 2026.",
   },
   {
-    question: "Do you build websites?",
+    question: "Do you build websites and apps?",
     answer:
-      "Yes! I build modern, fast websites for creators, athletes, and small businesses. $500 for a custom build, $99/month for ongoing maintenance and updates. Email dcrame2@gmail.com to get started.",
+      "Yes! I build websites, web apps, and mobile apps for creators, athletes, and small businesses. Email dcrame2@gmail.com to get started.",
   },
   {
-    question: "What's included in the $500 website build?",
+    question: "What kind of projects can you build?",
     answer:
-      "Custom design, mobile responsive, SEO optimized, and deployed live. I build with Next.js and modern tools so your site is fast and looks great on every device.",
+      "Anything from a simple landing page to a full web app or mobile app on iOS and Android. Custom design, mobile responsive, SEO optimized, and deployed live. I build with Next.js, React Native, and modern tools.",
   },
   {
     question: "Do you do coaching or consulting?",

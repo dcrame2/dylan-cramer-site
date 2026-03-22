@@ -278,13 +278,13 @@ export default function PortfolioPage() {
             Portfolio
           </p>
           <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tight">
-            Websites
+            What I&apos;ve
             <br />
-            <span className="text-red-500">I&apos;ve Built.</span>
+            <span className="text-red-500">Built.</span>
           </h1>
           <p className="text-gray-400 mt-4 max-w-xl">
-            Custom-designed, mobile-first websites for creators, athletes, and
-            small businesses. Every site is built to look good and convert.
+            Websites, web apps, and mobile apps for creators, athletes, and
+            small businesses. Every project is built to look good and convert.
           </p>
         </motion.div>
 
@@ -343,7 +343,7 @@ export default function PortfolioPage() {
           className="mt-16 text-center"
         >
           <p className="text-gray-500 mb-4">
-            Need a website built for your business or brand?
+            Need a website or app built for your business or brand?
           </p>
           <a
             href="mailto:dcrame2@gmail.com?subject=Website%20Build%20Inquiry"

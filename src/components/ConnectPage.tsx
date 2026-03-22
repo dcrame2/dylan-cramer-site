@@ -66,9 +66,9 @@ const workItems = [
     ),
   },
   {
-    title: "Website Builds",
+    title: "Websites & Apps",
     description:
-      "Need a website? I build modern, fast websites for creators and small businesses. $500 build + $99/mo maintenance.",
+      "Need a website, web app, or mobile app? I build modern, fast digital products for creators and small businesses.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />

@@ -19,9 +19,9 @@ const services = [
     highlight: true,
   },
   {
-    title: "Website Build",
+    title: "Website & App Build",
     description:
-      "Need a website that actually looks good? I build fast, modern websites for creators, athletes, and small businesses. Clean design, mobile-first, built to convert.",
+      "Need a website, web app, or mobile app? I build fast, modern digital products for creators, athletes, and small businesses. Clean design, mobile-first, built to convert.",
     features: [
       "Custom design & development",
       "Mobile responsive",
@@ -35,7 +35,7 @@ const services = [
     highlight: false,
   },
   {
-    title: "Website Maintenance",
+    title: "App & Website Maintenance",
     description:
       "Already have a site? I'll keep it updated, running fast, and looking fresh. Content updates, bug fixes, and ongoing improvements so you can focus on your thing.",
     features: [
@@ -77,7 +77,7 @@ export default function WorkWithMe() {
             <span className="text-red-500">Me.</span>
           </h2>
           <p className="text-gray-400 mt-4 max-w-xl">
-            Looking for authentic content for your brand? Need a website built?
+            Looking for authentic content for your brand? Need a website or app built?
             I got you.
           </p>
         </motion.div>
