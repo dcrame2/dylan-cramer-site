@@ -45,6 +45,8 @@ function Tip({ children }: { children: React.ReactNode }) {
   );
 }
 
+let sectionImageCount = 0;
+
 function SectionImage({
   src,
   alt,
@@ -54,19 +56,24 @@ function SectionImage({
   alt: string;
   caption: string;
 }) {
+  const isLeft = sectionImageCount % 2 === 0;
+  sectionImageCount++;
+
   return (
-    <div className="relative rounded-2xl overflow-hidden my-8">
-      <div className="relative aspect-[16/9]">
-        <Image
-          src={src}
-          alt={alt}
-          fill
-          sizes="(max-width: 768px) 100vw, 720px"
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-      </div>
-      <p className="absolute bottom-3 left-4 text-xs uppercase tracking-widest text-red-400 font-mono">
+    <div
+      className={`rounded-2xl overflow-hidden bg-white/5 my-4 w-full md:w-[45%] ${
+        isLeft ? "md:float-left md:mr-6 md:mb-4" : "md:float-right md:ml-6 md:mb-4"
+      }`}
+    >
+      <Image
+        src={src}
+        alt={alt}
+        width={600}
+        height={400}
+        sizes="(max-width: 768px) 100vw, 340px"
+        className="w-full h-auto"
+      />
+      <p className="px-3 py-2 text-xs uppercase tracking-widest text-red-400 font-mono">
         {caption}
       </p>
     </div>

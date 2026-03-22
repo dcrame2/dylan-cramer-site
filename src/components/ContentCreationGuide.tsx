@@ -45,28 +45,55 @@ function Tip({ children }: { children: React.ReactNode }) {
   );
 }
 
+let sectionImageCount = 0;
+
 function SectionImage({
   src,
   alt,
   caption,
+  fullWidth,
 }: {
   src: string;
   alt: string;
   caption: string;
+  fullWidth?: boolean;
 }) {
-  return (
-    <div className="relative rounded-2xl overflow-hidden my-8">
-      <div className="relative aspect-[16/9]">
+  const isLeft = sectionImageCount % 2 === 0;
+  sectionImageCount++;
+
+  if (fullWidth) {
+    return (
+      <div className="rounded-2xl overflow-hidden bg-white/5 my-8">
         <Image
           src={src}
           alt={alt}
-          fill
+          width={1200}
+          height={800}
           sizes="(max-width: 768px) 100vw, 720px"
-          className="object-cover"
+          className="w-full h-auto"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+        <p className="px-4 py-3 text-xs uppercase tracking-widest text-red-400 font-mono">
+          {caption}
+        </p>
       </div>
-      <p className="absolute bottom-3 left-4 text-xs uppercase tracking-widest text-red-400 font-mono">
+    );
+  }
+
+  return (
+    <div
+      className={`rounded-2xl overflow-hidden bg-white/5 my-4 w-full md:w-[45%] ${
+        isLeft ? "md:float-left md:mr-6 md:mb-4" : "md:float-right md:ml-6 md:mb-4"
+      }`}
+    >
+      <Image
+        src={src}
+        alt={alt}
+        width={600}
+        height={400}
+        sizes="(max-width: 768px) 100vw, 340px"
+        className="w-full h-auto"
+      />
+      <p className="px-3 py-2 text-xs uppercase tracking-widest text-red-400 font-mono">
         {caption}
       </p>
     </div>
@@ -281,6 +308,7 @@ export default function ContentCreationGuide() {
                   src="/images/gallery/alcatraz-bike-coast.jpg"
                   alt="Capturing content at a race event"
                   caption="Content Meets Racing"
+                  fullWidth
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   The number one rule:{" "}
