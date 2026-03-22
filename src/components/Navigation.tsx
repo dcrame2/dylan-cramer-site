@@ -208,21 +208,6 @@ export default function Navigation() {
               </motion.div>
             ))}
 
-            {/* Portfolio in mobile */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: navLinks.length * 0.1 }}
-            >
-              <Link
-                href="/services/portfolio"
-                onClick={() => setMobileOpen(false)}
-                className="text-2xl uppercase tracking-widest text-white hover:text-red-500 transition-colors"
-              >
-                Portfolio
-              </Link>
-            </motion.div>
-
             {/* Resources in mobile */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
