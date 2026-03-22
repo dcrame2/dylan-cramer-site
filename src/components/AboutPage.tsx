@@ -28,8 +28,8 @@ const timeline = [
   },
   {
     year: "2025",
-    title: "BPN 50 Mile Ultra",
-    detail: "~9 hours. Nov 2025.",
+    title: "BPN Go One More 50 Miler",
+    detail: "9:24:00. Nov 1, 2025.",
     icon: "50",
   },
   {
@@ -229,36 +229,37 @@ export default function AboutPage() {
               className="space-y-6"
             >
               <p className="text-xs uppercase tracking-[0.4em] text-red-500 font-mono mb-2">
-                Who I Am
+                The Race Resume
               </p>
               <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tight">
-                Built Different.
+                One More Mile.
                 <br />
-                <span className="text-red-500">Never Enough.</span>
+                <span className="text-red-500">One More Rep.</span>
               </h2>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I&apos;m Dylan Cramer, a software developer by day who refuses to sit still.
-                When I&apos;m not writing code at my 9-5 or building{" "}
-                <span className="text-red-500 font-semibold">InstaCal</span>,
-                you&apos;ll find me training for my next Ironman, running ultras through
-                the night, or swimming in open water before sunrise.
+                November 2025 changed me. On November 1st I ran the{" "}
+                <span className="text-white font-semibold">BPN Go One More 50 miler</span>.
+                One week later, seven days, I was on the start line of{" "}
+                <span className="text-white font-semibold">Tunnel Hill 100</span>.
+                A 50 miler and a 100 miler, back to back weekends. My body was wrecked
+                before mile 1 of the hundred even started.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I&apos;ve finished{" "}
-                <span className="text-white font-semibold">Ironman Wisconsin</span> in
-                13:54:29, completed{" "}
-                <span className="text-white font-semibold">IRONMAN 70.3</span>,
-                ran{" "}
-                <span className="text-white font-semibold">100 miles at Tunnel Hill</span> in 25:53,
-                swam Escape Alcatraz, and raced the Chicago Triathlon Triple.
-                Now I&apos;m training for{" "}
-                <span className="text-red-500 font-semibold">Ironman Lake Placid</span> in
-                July 2026.
+                By mile 50 at Tunnel Hill my achilles was screaming. But I kept moving.
+                From mile 50 to mile 76 I ran completely alone in the dark. Just me, the
+                trail, and the pain. No crew, no pacers, no one to talk to. Step after step
+                through the night, pushing past a threshold I didn&apos;t know existed. That
+                stretch taught me more about who I am than anything else in my life. I
+                finished in <span className="text-red-500 font-semibold">25:53:47</span>.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                Outside of racing, I like to party, hit music festivals and concerts,
-                and live life to the absolute fullest. I document it all, raw,
-                authentic, documentary-style, because this life is meant to be shared.
+                Then came{" "}
+                <span className="text-white font-semibold">Ironman Wisconsin</span>.
+                140.6 miles. 2.4 mile swim, 112 on the bike, full marathon to close it out.
+                Crossed the line in <span className="text-red-500 font-semibold">13:54:29</span>{" "}
+                after 14 hours of racing through Madison. Now I&apos;m training
+                for <span className="text-red-500 font-semibold">Ironman Lake Placid</span>{" "}
+                in July 2026 and documenting every step of the way.
               </p>
 
               {/* Tags */}
@@ -286,19 +287,19 @@ export default function AboutPage() {
             >
               <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
                 <Image
-                  src="/images/gallery/ironman-finish.jpg"
-                  alt="Dylan crossing the Ironman finish line"
+                  src="/images/gallery/go-one-more.jpg"
+                  alt="Dylan standing under the Go One More sign"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover object-[50%_20%]"
+                  className="object-cover object-[50%_30%]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
                   <p className="text-xs uppercase tracking-widest text-red-400 font-mono">
-                    Ironman Wisconsin 2025
+                    BPN Go One More 50 Miler
                   </p>
                   <p className="text-3xl font-black text-white countdown-digit">
-                    13:54:29
+                    9:24:00
                   </p>
                 </div>
               </div>
