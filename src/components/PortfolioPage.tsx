@@ -288,7 +288,7 @@ export default function PortfolioPage() {
           </p>
         </motion.div>
 
-        {/* Professional Projects */}
+        {/* Freelance & Personal Projects */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
@@ -296,13 +296,13 @@ export default function PortfolioPage() {
           className="mb-6"
         >
           <p className="text-xs uppercase tracking-[0.3em] text-gray-600 font-mono mb-2">
-            Professional
+            Freelance & Personal
           </p>
           <div className="h-px bg-gradient-to-r from-red-600/30 to-transparent mb-8" />
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-20">
-          {professionalProjects.map((project, i) => (
+          {freelanceProjects.map((project, i) => (
             <ProjectCard
               key={project.title}
               project={project}
@@ -312,7 +312,7 @@ export default function PortfolioPage() {
           ))}
         </div>
 
-        {/* Freelance & Personal Projects */}
+        {/* Professional Projects */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
@@ -320,13 +320,13 @@ export default function PortfolioPage() {
           className="mb-6"
         >
           <p className="text-xs uppercase tracking-[0.3em] text-gray-600 font-mono mb-2">
-            Freelance & Personal
+            Professional
           </p>
           <div className="h-px bg-gradient-to-r from-red-600/30 to-transparent mb-8" />
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {freelanceProjects.map((project, i) => (
+          {professionalProjects.map((project, i) => (
             <ProjectCard
               key={project.title}
               project={project}

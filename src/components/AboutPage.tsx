@@ -52,8 +52,8 @@ const timeline = [
   },
   {
     year: "2024",
-    title: "Tunnel Hill 100",
-    detail: "First 100 miler. All night, all grit.",
+    title: "Tunnel Hill 50 Miler",
+    detail: "First ultra. 50 miles of grit.",
     icon: "TH",
   },
   {

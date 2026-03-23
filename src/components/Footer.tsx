@@ -7,7 +7,6 @@ import Link from "next/link";
 const footerNav = [
   { href: "/about", label: "About" },
   { href: "/gallery", label: "Gallery" },
-  { href: "/content", label: "Content" },
   { href: "/instacal", label: "InstaCal" },
   { href: "/services/portfolio", label: "Portfolio" },
   { href: "/resources", label: "Resources" },

@@ -473,60 +473,81 @@ export default function InstacalPage() {
       {/* ============================================ */}
       <section ref={storyRef} className='relative py-32 px-6'>
         <div className='max-w-7xl mx-auto relative z-10'>
-          <div className='max-w-3xl mx-auto'>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={storyInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.8 }}
-            >
-              <p className='text-xs uppercase tracking-[0.3em] text-red-500 font-mono mb-4'>
-                The Story
-              </p>
-              <h2 className='text-4xl md:text-6xl font-black uppercase tracking-tight mb-8'>
-                Why I <span className='text-red-500'>Built</span> This
-              </h2>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={storyInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className='space-y-6 text-gray-400 leading-relaxed text-lg'
-            >
-              <p>
-                Every calorie tracker I tried felt like a chore. Boring
-                databases, zero community, no way to see what the people around
-                me were actually eating. As someone training for Ironmans and
-                running 100-milers, I needed to know my nutrition was dialed,
-                but I also wanted it to feel like opening Instagram, not a
-                spreadsheet.
-              </p>
-              <p>
-                I wanted to scroll through a feed and see my training
-                buddy&apos;s post-long-run recovery meal. I wanted to snap a
-                photo and have AI tell me my macros instantly. I wanted to
-                discover restaurants on a map based on what my friends were
-                eating there.
-              </p>
-              <p>That app didn&apos;t exist. So I built it myself.</p>
-              <p className='text-white font-semibold text-xl'>
-                InstaCal is social nutrition. Track what you eat, see what your
-                friends eat, and make healthy choices together.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={storyInView ? { opacity: 1 } : {}}
-              transition={{ delay: 0.6 }}
-              className='mt-8 flex items-center gap-3'
-            >
-              <div className='w-px h-12 bg-red-600' />
-              <div>
-                <p className='text-white font-bold'>Dylan Cramer</p>
-                <p className='text-xs text-gray-600 font-mono'>
-                  Founder &amp; Developer, InstaCal
+          <div className='grid lg:grid-cols-2 gap-16 items-center'>
+            <div>
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                animate={storyInView ? { opacity: 1, y: 0 } : {}}
+                transition={{ duration: 0.8 }}
+              >
+                <p className='text-xs uppercase tracking-[0.3em] text-red-500 font-mono mb-4'>
+                  The Story
                 </p>
+                <h2 className='text-4xl md:text-6xl font-black uppercase tracking-tight mb-8'>
+                  Why I <span className='text-red-500'>Built</span> This
+                </h2>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={storyInView ? { opacity: 1, y: 0 } : {}}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                className='space-y-6 text-gray-400 leading-relaxed text-lg'
+              >
+                <p>
+                  Every calorie tracker I tried felt like a chore. Boring
+                  databases, zero community, no way to see what the people around
+                  me were actually eating. As someone training for Ironmans and
+                  running 100-milers, I needed to know my nutrition was dialed,
+                  but I also wanted it to feel like opening Instagram, not a
+                  spreadsheet.
+                </p>
+                <p>
+                  I wanted to scroll through a feed and see my training
+                  buddy&apos;s post-long-run recovery meal. I wanted to snap a
+                  photo and have AI tell me my macros instantly. I wanted to
+                  discover restaurants on a map based on what my friends were
+                  eating there.
+                </p>
+                <p>That app didn&apos;t exist. So I built it myself.</p>
+                <p className='text-white font-semibold text-xl'>
+                  InstaCal is social nutrition. Track what you eat, see what your
+                  friends eat, and make healthy choices together.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={storyInView ? { opacity: 1 } : {}}
+                transition={{ delay: 0.6 }}
+                className='mt-8 flex items-center gap-3'
+              >
+                <div className='w-px h-12 bg-red-600' />
+                <div>
+                  <p className='text-white font-bold'>Dylan Cramer</p>
+                  <p className='text-xs text-gray-600 font-mono'>
+                    Founder &amp; Developer, InstaCal
+                  </p>
+                </div>
+              </motion.div>
+            </div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 40 }}
+              animate={storyInView ? { opacity: 1, x: 0 } : {}}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className='flex justify-center'
+            >
+              <div className='relative w-[280px] rounded-[3rem] border-[6px] border-white/10 bg-black p-2 shadow-2xl shadow-red-500/10'>
+                <div className='overflow-hidden rounded-[2.25rem]'>
+                  <Image
+                    src='/images/app/instacal-profile.png'
+                    alt='InstaCal profile screen showing food posts'
+                    width={268}
+                    height={580}
+                    className='w-full h-auto'
+                  />
+                </div>
               </div>
             </motion.div>
           </div>

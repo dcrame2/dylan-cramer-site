@@ -133,15 +133,6 @@ export default function ContentSection() {
           {/* CTA */}
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <a
-              href="/content"
-              className="inline-flex items-center gap-2 px-8 py-3 bg-red-600 text-white font-bold uppercase tracking-wider text-sm hover:bg-red-500 transition-all rounded-xl"
-            >
-              See All Content
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </a>
-            <a
               href="mailto:dcrame2@gmail.com"
               className="inline-flex items-center gap-2 px-8 py-3 border border-white/20 text-white font-bold uppercase tracking-wider text-sm hover:border-red-500 hover:text-red-500 transition-all rounded-xl"
             >
