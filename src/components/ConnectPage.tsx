@@ -124,12 +124,6 @@ export default function ConnectPage() {
 
   return (
     <div className="pt-28 overflow-hidden">
-      {/* Background floating orbs */}
-      <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
-        <div className="absolute top-20 left-[10%] w-72 h-72 bg-red-600/8 rounded-full blur-3xl animate-float" />
-        <div className="absolute top-[60%] right-[5%] w-96 h-96 bg-red-600/5 rounded-full blur-3xl animate-float-slow" />
-        <div className="absolute bottom-20 left-[30%] w-64 h-64 bg-red-600/6 rounded-full blur-3xl animate-float" />
-      </div>
 
       {/* ===== HERO SECTION ===== */}
       <section ref={heroRef} className="relative min-h-[70vh] flex items-center overflow-hidden">

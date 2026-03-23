@@ -20,7 +20,6 @@ export default function WorkWithMeBanner() {
           className="relative p-8 md:p-12 rounded-2xl border border-white/10 bg-white/5 overflow-hidden"
         >
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-red-600 to-red-400" />
-          <div className="absolute -bottom-20 -right-20 w-60 h-60 bg-red-600/10 rounded-full blur-3xl" />
 
           <div className="relative flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div>

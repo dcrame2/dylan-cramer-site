@@ -218,7 +218,6 @@ export default function AboutPage() {
 
       {/* ── WHO I AM ──────────────────────────────────── */}
       <section ref={who.ref} className="relative py-28 px-6">
-        <div className="absolute top-20 right-0 w-96 h-96 bg-red-600/5 rounded-full blur-3xl" />
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Text */}
@@ -387,7 +386,6 @@ export default function AboutPage() {
 
       {/* ── WHAT DRIVES ME ────────────────────────────── */}
       <section ref={drives.ref} className="relative py-28 px-6">
-        <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-red-600/5 rounded-full blur-3xl" />
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Image left */}
@@ -496,7 +494,6 @@ export default function AboutPage() {
 
       {/* ── THE LIFESTYLE ─────────────────────────────── */}
       <section ref={lifestyle.ref} className="relative py-28 px-6">
-        <div className="absolute top-20 left-0 w-96 h-96 bg-red-600/5 rounded-full blur-3xl" />
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 40 }}

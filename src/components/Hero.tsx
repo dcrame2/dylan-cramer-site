@@ -79,7 +79,7 @@ export default function Hero() {
           fill
           className='object-cover object-[50%_25%] md:object-[70%_25%]'
           priority
-          quality={90}
+          quality={75}
           sizes='200vw'
         />
       </div>
@@ -90,8 +90,6 @@ export default function Hero() {
       <div className='absolute inset-0 bg-gradient-to-r from-red-900/10 via-transparent to-transparent z-[1]' />
 
       {/* Floating red orbs */}
-      <div className='absolute top-20 left-10 w-72 h-72 bg-red-600/10 rounded-full blur-3xl animate-float z-[2]' />
-      <div className='absolute bottom-20 right-10 w-96 h-96 bg-red-600/5 rounded-full blur-3xl animate-float-slow z-[2]' />
 
       {/* Main content — left aligned, same container as navbar */}
       <motion.div

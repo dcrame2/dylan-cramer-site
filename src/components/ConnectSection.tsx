@@ -35,8 +35,6 @@ export default function ConnectSection() {
 
       {/* Background effects */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-red-600/10 rounded-full blur-3xl animate-float" />
-        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-red-600/8 rounded-full blur-3xl animate-float-slow" />
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">

@@ -112,7 +112,6 @@ export default function ResourcesPage() {
     <div className="relative pt-28 overflow-hidden">
       {/* ── HERO ─────────────────────────────────────── */}
       <section ref={hero.ref} className="relative py-24 px-6">
-        <div className="absolute top-20 right-0 w-96 h-96 bg-red-600/5 rounded-full blur-3xl" />
         <div className="max-w-7xl mx-auto">
           <motion.p
             initial={{ opacity: 0, y: 20 }}

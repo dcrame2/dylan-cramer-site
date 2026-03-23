@@ -36,7 +36,6 @@ export default function InstaCal() {
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-red-600/50 to-transparent" />
 
       {/* Background glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-red-600/5 rounded-full blur-3xl" />
 
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -74,7 +73,6 @@ export default function InstaCal() {
               </motion.div>
 
               {/* Red glow behind phone */}
-              <div className="absolute inset-0 -z-10 bg-red-600/20 blur-3xl rounded-full scale-150 pointer-events-none" />
             </div>
           </motion.div>
 

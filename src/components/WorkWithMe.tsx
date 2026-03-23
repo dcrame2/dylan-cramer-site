@@ -59,7 +59,6 @@ export default function WorkWithMe() {
   return (
     <section ref={ref} className="relative py-32 px-6 overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-red-600/50 to-transparent" />
-      <div className="absolute top-40 left-0 w-80 h-80 bg-red-600/5 rounded-full blur-3xl" />
 
       <div className="max-w-7xl mx-auto">
         <motion.div

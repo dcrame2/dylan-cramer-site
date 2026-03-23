@@ -237,7 +237,6 @@ export default function InstacalPage() {
                 </motion.div>
 
                 {/* Red glow behind phone */}
-                <div className="absolute inset-0 -z-10 bg-red-600/20 blur-3xl rounded-full scale-150 pointer-events-none" />
               </div>
             </motion.div>
           </div>
@@ -251,7 +250,6 @@ export default function InstacalPage() {
       {/* FEATURES SECTION */}
       {/* ============================================ */}
       <section ref={featuresRef} className="relative py-32 px-6">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-red-600/5 rounded-full blur-3xl" />
 
         <div className="max-w-7xl mx-auto relative z-10">
           <motion.div
@@ -368,7 +366,6 @@ export default function InstacalPage() {
       {/* WHY I BUILT THIS */}
       {/* ============================================ */}
       <section ref={storyRef} className="relative py-32 px-6">
-        <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-red-600/5 rounded-full blur-3xl" />
 
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="max-w-3xl mx-auto">
@@ -438,7 +435,6 @@ export default function InstacalPage() {
       {/* PRICING SECTION */}
       {/* ============================================ */}
       <section ref={pricingRef} className="relative py-32 px-6">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-red-600/5 rounded-full blur-3xl" />
 
         <div className="max-w-7xl mx-auto relative z-10">
           <motion.div
