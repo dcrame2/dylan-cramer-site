@@ -88,8 +88,7 @@ const galleryImages = [
   { src: "/images/gallery/alcatraz-pier39.jpg", alt: "Sea lions at Pier 39", caption: "PIER 39", category: "alcatraz" },
   { src: "/images/gallery/alcatraz-sealion.jpg", alt: "Sea lion swimming at Pier 39", caption: "SEA LION", category: "alcatraz" },
   { src: "/images/gallery/alcatraz-medal.jpg", alt: "Selfie with Escape from Alcatraz medal", caption: "FINISHER", category: "alcatraz" },
-  { src: "/images/gallery/family-tri.jpg", alt: "Family at triathlon", caption: "FAMILY SUPPORT", category: "life" },
-  { src: "/images/gallery/festival.jpg", alt: "Music festival vibes", caption: "GOOD VIBES", category: "life" },
+  { src: "/images/gallery/family-tri.jpg", alt: "Family at triathlon", caption: "FAMILY SUPPORT", category: "triathlon" },
   { src: "/images/gallery/703-swim-exit.jpg", alt: "70.3 swim exit transition", caption: "70.3 SWIM EXIT", category: "70.3" },
   { src: "/images/gallery/703-run-lakeside.jpg", alt: "Running lakeside at 70.3", caption: "70.3 RUN", category: "70.3" },
   { src: "/images/gallery/703-peace-sign.jpg", alt: "Peace sign while running", caption: "GOOD VIBES", category: "70.3" },
@@ -111,7 +110,6 @@ const categories = [
   { key: "alcatraz", label: "Alcatraz" },
   { key: "ultra", label: "Ultra" },
   { key: "triathlon", label: "Triathlon" },
-  { key: "life", label: "Life" },
 ];
 
 export default function GalleryPage() {

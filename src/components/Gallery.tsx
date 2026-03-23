@@ -16,8 +16,7 @@ const carouselImages = [
   { src: "/images/gallery/chicago-run.jpg", alt: "Running in Chicago skyline", caption: "CHICAGO TRI" },
   { src: "/images/gallery/chicago-finish.jpg", alt: "Chicago Triathlon finish", caption: "FINISH LINE" },
   { src: "/images/gallery/go-one-more.jpg", alt: "Go One More sign", caption: "GO ONE MORE" },
-  { src: "/images/gallery/festival.jpg", alt: "Music festival vibes", caption: "GOOD VIBES" },
-  { src: "/images/gallery/ironman-final.jpg", alt: "Ironman crossing finish", caption: "THE MOMENT" },
+{ src: "/images/gallery/ironman-final.jpg", alt: "Ironman crossing finish", caption: "THE MOMENT" },
 ];
 
 export default function Gallery() {
