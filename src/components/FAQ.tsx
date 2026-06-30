@@ -22,7 +22,7 @@ const faqs = [
   {
     question: "What races have you completed?",
     answer:
-      "Ironman Wisconsin (13:54:29), Tunnel Hill 100 mile ultra, Chicago Triathlon, multiple 50-milers, and I'm currently training for Ironman Lake Placid in July 2026.",
+      "Ironman Wisconsin (13:54:29), Tunnel Hill 100 mile ultra, Chicago Triathlon, multiple 50-milers, and I'm currently training for Ironman California in October 2026.",
   },
   {
     question: "Do you do coaching or consulting?",

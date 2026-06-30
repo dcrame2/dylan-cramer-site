@@ -1004,7 +1004,7 @@ export default function NineToFiveIronman() {
                   <p className="text-lg text-gray-400 max-w-xl mx-auto mb-10">
                     If this guide helped you, share it with someone who thinks
                     they don&apos;t have time for an Ironman. Follow along as I
-                    train for Ironman Lake Placid 2026.
+                    train for Ironman California 2026.
                   </p>
 
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">

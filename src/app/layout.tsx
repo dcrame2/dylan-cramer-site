@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://dylancramer.com"),
   title: "Dylan Cramer | Ironman Athlete, Ultrarunner & Creator",
   description:
-    "Software developer by day, Ironman athlete & ultrarunner by night. Training for Ironman Lake Placid 2026. Follow the journey on Instagram, TikTok & YouTube.",
+    "Software developer by day, Ironman athlete & ultrarunner by night. Training for Ironman California 2026. Follow the journey on Instagram, TikTok & YouTube.",
   keywords: [
     "Dylan Cramer",
     "Ironman",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dylan Cramer | Ironman Athlete, Ultrarunner & Creator",
     description:
-      "Software dev. Ironman finisher. 100-mile ultrarunner. Building InstaCal. Training for Ironman Lake Placid July 2026.",
+      "Software dev. Ironman finisher. 100-mile ultrarunner. Building InstaCal. Training for Ironman California October 2026.",
     type: "website",
     images: ["/og-image.png"],
   },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dylan Cramer | Ironman Athlete, Ultrarunner & Creator",
     description:
-      "Software dev. Ironman finisher. 100-mile ultrarunner. Building InstaCal. Training for Ironman Lake Placid July 2026.",
+      "Software dev. Ironman finisher. 100-mile ultrarunner. Building InstaCal. Training for Ironman California October 2026.",
     images: ["/og-image.png"],
   },
 };

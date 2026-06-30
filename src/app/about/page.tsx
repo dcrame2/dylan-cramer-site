@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "About | Dylan Cramer",
   description:
-    "Software developer, Ironman finisher, 100-mile ultrarunner, and content creator. Training for Ironman Lake Placid 2026.",
+    "Software developer, Ironman finisher, 100-mile ultrarunner, and content creator. Training for Ironman California 2026.",
 };
 
 export default function About() {

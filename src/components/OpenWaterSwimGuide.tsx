@@ -999,7 +999,7 @@ export default function OpenWaterSwimGuide() {
                   <p className="text-lg text-gray-400 max-w-xl mx-auto mb-10">
                     If this guide helped you, share it with a triathlete
                     who&apos;s nervous about the swim. Follow along as I train
-                    for Ironman Lake Placid 2026.
+                    for Ironman California 2026.
                   </p>
 
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">

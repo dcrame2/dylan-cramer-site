@@ -54,7 +54,7 @@ export default function About() {
                 ran <span className="text-white font-semibold">100 miles at Tunnel Hill</span> in 25:53,
                 swam Escape Alcatraz, raced the Chicago Triathlon Triple, and completed a 50K
                 in the dead of winter. Now I&apos;m training for{" "}
-                <span className="text-red-500 font-semibold">Ironman Lake Placid</span> in July 2026.
+                <span className="text-red-500 font-semibold">Ironman California</span> in October 2026.
                 I also like to party, go to music festivals, and live life to the fullest.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">

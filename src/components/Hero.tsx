@@ -46,8 +46,8 @@ export default function Hero() {
 
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
-  // Ironman Lake Placid July 2026 (typically third Sunday in July)
-  const ironmanDate = useRef(new Date('2026-07-19T07:00:00'));
+  // Ironman California — October 18, 2026 (Sacramento)
+  const ironmanDate = useRef(new Date('2026-10-18T07:00:00'));
   const countdown = useCountdown(ironmanDate.current);
 
   const roles = [
@@ -105,7 +105,7 @@ export default function Hero() {
             className='mb-8'
           >
             <p className='text-xs uppercase tracking-[0.3em] text-red-400 mb-3 font-mono'>
-              Ironman Lake Placid 2026
+              Ironman California 2026
             </p>
             <div className='flex gap-3'>
               {[
@@ -191,7 +191,7 @@ export default function Hero() {
               href='#instacal'
               className='px-8 py-3 border border-white/20 text-white font-bold uppercase tracking-wider text-sm hover:border-red-500 hover:text-red-500 transition-all rounded-xl'
             >
-              Check Out InstaCal
+              Try My App InstaCal
             </a>
           </motion.div>
 

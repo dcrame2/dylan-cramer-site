@@ -7,8 +7,8 @@ import Link from "next/link";
 
 const navLinks = [
   { href: "/about", label: "About" },
-  { href: "/gallery", label: "Gallery" },
-  { href: "/instacal", label: "InstaCal" },
+  { href: "/instacal", label: "My App" },
+  { href: "/hub", label: "Hub" },
 ];
 
 const resourceLinks = [

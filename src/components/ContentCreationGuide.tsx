@@ -1015,7 +1015,7 @@ export default function ContentCreationGuide() {
                   <p className="text-lg text-gray-400 max-w-xl mx-auto mb-10">
                     If this guide helped you, share it with an athlete who&apos;s
                     been thinking about starting content. Follow along as I
-                    document the road to Ironman Lake Placid 2026.
+                    document the road to Ironman California 2026.
                   </p>
 
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">

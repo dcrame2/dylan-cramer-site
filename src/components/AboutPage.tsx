@@ -10,8 +10,8 @@ import SocialCards from "./SocialCards";
 const timeline = [
   {
     year: "2026",
-    title: "Ironman Lake Placid",
-    detail: "July 2026. 140.6 miles. The next chapter.",
+    title: "Ironman California",
+    detail: "October 2026. 140.6 miles. The next chapter.",
     icon: "LP",
   },
   {
@@ -257,8 +257,8 @@ export default function AboutPage() {
                 140.6 miles. 2.4 mile swim, 112 on the bike, full marathon to close it out.
                 Crossed the line in <span className="text-red-500 font-semibold">13:54:29</span>{" "}
                 after 14 hours of racing through Madison. Now I&apos;m training
-                for <span className="text-red-500 font-semibold">Ironman Lake Placid</span>{" "}
-                in July 2026 and documenting every step of the way.
+                for <span className="text-red-500 font-semibold">Ironman California</span>{" "}
+                in October 2026 and documenting every step of the way.
               </p>
 
               {/* Tags */}

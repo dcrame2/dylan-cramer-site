@@ -380,10 +380,10 @@ export default function ConnectPage() {
                   </span>
                 </div>
                 <h3 className="text-2xl font-black uppercase text-white mb-3">
-                  Ironman Lake Placid
+                  Ironman California
                 </h3>
                 <p className="text-sm text-gray-400 leading-relaxed mb-4">
-                  Training for Ironman Lake Placid in July 2026. Following the
+                  Training for Ironman California in October 2026. Following the
                   journey means swim/bike/run content, race prep updates, and the
                   grind of balancing training with building.
                 </p>
