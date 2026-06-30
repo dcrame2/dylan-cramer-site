@@ -115,7 +115,7 @@ export default function UltraMarathonNutrition() {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "Ultra Marathon Nutrition Guide - Dylan Cramer",
+          title: "Ultra Marathon Nutrition Guide | Dylan Cramer",
           url,
         });
       } catch {
@@ -747,7 +747,7 @@ export default function UltraMarathonNutrition() {
                 <SectionImage
                   src="/images/gallery/night-trail.jpg"
                   alt="Running trails at night with headlamp"
-                  caption="Night Miles - Tunnel Hill"
+                  caption="Night Miles: Tunnel Hill"
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Running through the night changes everything about your
@@ -1066,7 +1066,7 @@ export default function UltraMarathonNutrition() {
                   times in training. There are no shortcuts here. Put in the
                   gut training during your long runs and your race day stomach
                   will thank you. Once your nutrition is dialed in, make sure
-                  the rest of your gear is too — check out my{" "}
+                  the rest of your gear is too, check out my{" "}
                   <Link href="/resources/ultramarathon-packing-list" className="text-red-500 hover:text-red-400 underline">complete ultramarathon packing list</Link>.
                 </Tip>
               </div>

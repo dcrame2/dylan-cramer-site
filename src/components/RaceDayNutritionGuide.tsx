@@ -115,7 +115,7 @@ export default function RaceDayNutritionGuide() {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "Race Day Nutrition Strategy - Dylan Cramer",
+          title: "Race Day Nutrition Strategy | Dylan Cramer",
           url,
         });
       } catch {
@@ -571,7 +571,7 @@ export default function RaceDayNutritionGuide() {
                 <SectionImage
                   src="/images/gallery/tunnel-hill-finish.jpg"
                   alt="Dylan at the Tunnel Hill 100 finish line"
-                  caption="Fueled Right - Tunnel Hill 100 Finish"
+                  caption="Fueled Right: Tunnel Hill 100 Finish"
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   The bike is your golden fueling window. In a triathlon, the bike
@@ -998,7 +998,7 @@ export default function RaceDayNutritionGuide() {
                 <SectionImage
                   src="/images/gallery/ironman-finish.jpg"
                   alt="Dylan crossing the Ironman Wisconsin finish line"
-                  caption="Made it Through - Ironman Wisconsin Finish"
+                  caption="Made it Through: Ironman Wisconsin Finish"
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   Even with perfect preparation, nutrition can go sideways mid-race.
@@ -1063,7 +1063,7 @@ export default function RaceDayNutritionGuide() {
                 <SectionImage
                   src="/images/gallery/chicago-finish.jpg"
                   alt="Dylan finishing the Chicago Marathon"
-                  caption="Fueled and Finished - Chicago Marathon"
+                  caption="Fueled and Finished: Chicago Marathon"
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
                   Here are the actual nutrition plans I used for two very different

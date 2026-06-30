@@ -116,7 +116,7 @@ export default function IronmanGuide() {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "Ironman Training Guide - Dylan Cramer",
+          title: "Ironman Training Guide | Dylan Cramer",
           url,
         });
       } catch {
@@ -524,7 +524,7 @@ export default function IronmanGuide() {
                 <SectionImage
                   src="/images/gallery/swim-exit.jpg"
                   alt="Exiting the water during a triathlon swim"
-                  caption="Swim Exit - Ironman Wisconsin"
+                  caption="Swim Exit: Ironman Wisconsin"
                   imagePosition="top"
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
@@ -597,7 +597,7 @@ export default function IronmanGuide() {
                 <SectionImage
                   src="/images/gallery/bike-capitol.jpg"
                   alt="Biking past the capitol building"
-                  caption="Bike Leg - Ironman Wisconsin"
+                  caption="Bike Leg: Ironman Wisconsin"
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   The bike is the longest portion of your race (112 miles,
@@ -629,7 +629,7 @@ export default function IronmanGuide() {
                 <SectionImage
                   src="/images/gallery/bike-barn.jpg"
                   alt="Riding past a barn during Ironman bike course"
-                  caption="Mile 80 - The Verona Loop"
+                  caption="Mile 80: The Verona Loop"
                 />
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
                   Aero Position
@@ -672,7 +672,7 @@ export default function IronmanGuide() {
                 <SectionImage
                   src="/images/gallery/ironman-run.jpg"
                   alt="Running during the Ironman marathon"
-                  caption="The Marathon - Mile 18"
+                  caption="The Marathon: Mile 18"
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   The Ironman marathon is nothing like a standalone marathon.

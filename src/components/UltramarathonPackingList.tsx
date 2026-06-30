@@ -189,7 +189,7 @@ export default function UltramarathonPackingList() {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "Ultramarathon Packing List - Dylan Cramer",
+          title: "Ultramarathon Packing List | Dylan Cramer",
           url,
         });
       } catch {

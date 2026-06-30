@@ -115,7 +115,7 @@ export default function LongDistanceCyclingGuide() {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "Long Distance Cycling Guide - Dylan Cramer",
+          title: "Long Distance Cycling Guide | Dylan Cramer",
           url,
         });
       } catch {
@@ -358,7 +358,7 @@ export default function LongDistanceCyclingGuide() {
                 <SectionImage
                   src="/images/gallery/bike-barn.jpg"
                   alt="Riding past a barn on the Ironman Wisconsin bike course"
-                  caption="Mile 80 - The Verona Loop"
+                  caption="Mile 80: The Verona Loop"
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   A century ride is a completely different beast than a 50-mile
@@ -1044,7 +1044,7 @@ export default function LongDistanceCyclingGuide() {
                 <SectionImage
                   src="/images/gallery/ironman-run.jpg"
                   alt="Dylan running during the Ironman marathon after 112 miles on the bike"
-                  caption="Bike to Run - The Hardest Transition"
+                  caption="Bike to Run: The Hardest Transition"
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   A brick workout means doing two disciplines back to back,

@@ -114,7 +114,7 @@ export default function OpenWaterSwimGuide() {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "Open Water Swimming Guide for Triathletes - Dylan Cramer",
+          title: "Open Water Swimming Guide for Triathletes | Dylan Cramer",
           url,
         });
       } catch {

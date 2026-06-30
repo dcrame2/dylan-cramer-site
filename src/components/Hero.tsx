@@ -46,7 +46,7 @@ export default function Hero() {
 
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
-  // Ironman California — October 18, 2026 (Sacramento)
+  // Ironman California, October 18, 2026 (Sacramento)
   const ironmanDate = useRef(new Date('2026-10-18T07:00:00'));
   const countdown = useCountdown(ironmanDate.current);
 
@@ -71,7 +71,7 @@ export default function Hero() {
       ref={ref}
       className='relative h-screen flex items-center overflow-hidden grain-overlay'
     >
-      {/* Background image — on mobile, image is wider than viewport and shifted right so Dylan is visible */}
+      {/* Background image, on mobile, image is wider than viewport and shifted right so Dylan is visible */}
       <div className='absolute top-0 bottom-0 left-0 z-0 md:right-0 right-[-70%] md:w-full'>
         <Image
           src='/images/gallery/ironman-final.jpg'
@@ -84,14 +84,14 @@ export default function Hero() {
         />
       </div>
 
-      {/* Overlays — heavier on the left for text readability, lighter on the right to show face */}
+      {/* Overlays, heavier on the left for text readability, lighter on the right to show face */}
       <div className='absolute inset-0 bg-gradient-to-r from-black/90 via-black/60 to-black/30 z-[1]' />
       <div className='absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/40 z-[1]' />
       <div className='absolute inset-0 bg-gradient-to-r from-red-900/10 via-transparent to-transparent z-[1]' />
 
       {/* Floating red orbs */}
 
-      {/* Main content — left aligned, same container as navbar */}
+      {/* Main content, left aligned, same container as navbar */}
       <motion.div
         style={{ opacity }}
         className='relative z-10 text-left px-6 w-full max-w-7xl mx-auto'
@@ -129,7 +129,7 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          {/* Main headline — DYLAN CRAMER */}
+          {/* Main headline, DYLAN CRAMER */}
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -167,7 +167,7 @@ export default function Hero() {
             transition={{ delay: 1.0 }}
             className='text-sm md:text-base text-gray-400 mb-8 max-w-md leading-relaxed'
           >
-            Software dev by day, Ironman &amp; ultrarunner by night. Building apps, creating content, and chasing finish lines.
+            Software dev by day, Ironman &amp; ultrarunner by night. Building apps, chasing finish lines, and having way too much fun doing hard things.
           </motion.p>
 
           {/* Quick-link funnels */}

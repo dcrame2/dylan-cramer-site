@@ -135,7 +135,7 @@ export default function NineToFiveIronman() {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "How to Train for an Ironman with a 9-5 Job - Dylan Cramer",
+          title: "How to Train for an Ironman with a 9-5 Job | Dylan Cramer",
           url,
         });
       } catch {

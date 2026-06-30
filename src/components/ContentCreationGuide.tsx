@@ -135,7 +135,7 @@ export default function ContentCreationGuide() {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "Content Creation Guide for Athletes - Dylan Cramer",
+          title: "Content Creation Guide for Athletes | Dylan Cramer",
           url,
         });
       } catch {

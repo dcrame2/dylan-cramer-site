@@ -28,14 +28,14 @@ export default function About() {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            {/* Section header — inside the left column now */}
+            {/* Section header, inside the left column now */}
             <p className="text-xs uppercase tracking-[0.4em] text-red-500 font-mono mb-4">
               The Story
             </p>
             <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tight mb-10">
-              Built Different.
+              Do Hard Things.
               <br />
-              <span className="text-red-500">Never Enough.</span>
+              <span className="text-red-500">Have Fun.</span>
             </h2>
 
             <div className="space-y-6">
@@ -58,9 +58,11 @@ export default function About() {
                 I also like to party, go to music festivals, and live life to the fullest.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I document the whole journey. The 4am swims, the 100-mile weeks, the
-                app development grind, the wins, and the suffering. If you&apos;re into
-                pushing limits and doing the most with the time you have, welcome.
+                I document the whole thing. The 4am swims, the 100-mile weekends, the
+                app-building, the wins, the suffering, and the concerts and beers in
+                between. I&apos;m not trying to be elite or take it too seriously. I just
+                like doing hard things and having fun while I do them. If that&apos;s your
+                vibe, welcome.
               </p>
 
               {/* Tags */}
@@ -85,7 +87,7 @@ export default function About() {
             </div>
           </motion.div>
 
-          {/* Right: Feature image — aligned to top */}
+          {/* Right: Feature image, aligned to top */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
@@ -112,7 +114,7 @@ export default function About() {
           </motion.div>
         </div>
 
-        {/* Milestones — horizontal row */}
+        {/* Milestones, horizontal row */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}

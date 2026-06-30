@@ -5,7 +5,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-// A small lead-magnet teaser — a few of the free guides. Full set lives at /resources.
+// A small lead-magnet teaser, a few of the free guides. Full set lives at /resources.
 const featured = [
   {
     title: "Your First Ironman",
@@ -53,7 +53,7 @@ export default function ResourcesTeaser() {
           </h2>
           <p className="text-gray-400 mt-4 max-w-xl leading-relaxed">
             Everything I&apos;ve learned training for Ironmans and 100-milers around a
-            full-time job — written down, free, no email wall.
+            full-time job, written down, free, no email wall.
           </p>
         </motion.div>
 

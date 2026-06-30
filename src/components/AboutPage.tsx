@@ -209,7 +209,8 @@ export default function AboutPage() {
             className="mt-6 text-lg md:text-xl text-gray-300 max-w-xl"
           >
             Software developer. Ironman finisher. 100-mile ultrarunner.
-            Content creator. Based in Chicago.
+            Content creator. Based in Chicago. Here to do hard things and have a
+            good time doing them.
           </motion.p>
         </div>
       </section>
@@ -437,8 +438,9 @@ export default function AboutPage() {
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 I believe you can have the 9-5 career, train for an Ironman, build an app,
-                create content, AND still have a life. You just have to want it badly
-                enough and be willing to sacrifice comfort for progress.
+                create content, AND still have a life, still go to concerts, grab beers
+                with friends, and actually enjoy the ride. You don&apos;t have to take it
+                all so seriously. Put the work in, do hard things, but have fun with it.
               </p>
 
             </motion.div>
