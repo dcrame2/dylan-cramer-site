@@ -5,7 +5,7 @@ import { useRef } from "react";
 import Image from "next/image";
 
 const milestones = [
-  { year: "2025", title: "Ironman Wisconsin", detail: "13:54:29", icon: "M" },
+  { year: "2025", title: "BPN 50 Miler", detail: "9:24:00", icon: "B" },
   { year: "2024", title: "IRONMAN 70.3 Wisconsin", detail: "6:14:11", icon: "H" },
   { year: "2025", title: "Tunnel Hill 100mi", detail: "25:53:47", icon: "U" },
   { year: "2025", title: "Frozen Gnome 50K", detail: "6:46:12", icon: "R" },
@@ -49,8 +49,8 @@ export default function About() {
                 the night, or swimming in open water before sunrise.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I&apos;ve finished <span className="text-white font-semibold">Ironman Wisconsin</span> in
-                13:54:29, completed <span className="text-white font-semibold">IRONMAN 70.3</span>,
+                I&apos;ve finished <span className="text-white font-semibold">Ironman Wisconsin</span>,
+                completed <span className="text-white font-semibold">IRONMAN 70.3</span>,
                 ran <span className="text-white font-semibold">100 miles at Tunnel Hill</span> in 25:53,
                 swam Escape Alcatraz, raced the Chicago Triathlon Triple, and completed a 50K
                 in the dead of winter. Now I&apos;m training for{" "}
@@ -105,7 +105,7 @@ export default function About() {
                 <p className="text-xs uppercase tracking-widest text-red-400 font-mono">
                   Ironman Wisconsin 2025
                 </p>
-                <p className="text-3xl font-black text-white">13:54:29</p>
+                <p className="text-3xl font-black text-white">FINISHER</p>
               </div>
             </div>
             <div className="absolute -bottom-3 -right-3 w-full h-full border-2 border-red-600/20 -z-10 rounded-2xl" />

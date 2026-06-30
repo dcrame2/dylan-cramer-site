@@ -175,9 +175,10 @@ export default function Hero() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.2 }}
-            className='flex flex-wrap gap-2.5 max-w-xl'
+            className='flex flex-col gap-2.5 max-w-xl'
           >
-            {[
+            {(() => {
+              const els = [
               { label: 'My App', href: '#instacal', primary: true, external: false, icon: null },
               { label: 'Free Guides', href: '#playbook', primary: false, external: false, icon: null },
               {
@@ -234,7 +235,14 @@ export default function Hero() {
                   {content}
                 </a>
               );
-            })}
+            });
+              return (
+                <>
+                  <div className='flex flex-wrap gap-2.5'>{els.slice(0, 2)}</div>
+                  <div className='flex flex-wrap gap-2.5'>{els.slice(2)}</div>
+                </>
+              );
+            })()}
           </motion.div>
         </div>
       </motion.div>

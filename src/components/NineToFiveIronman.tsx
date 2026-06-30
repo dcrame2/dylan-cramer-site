@@ -290,7 +290,7 @@ export default function NineToFiveIronman() {
                     I trained for Ironman Wisconsin while working as a
                     full-time software developer, building and launching <Link href="/instacal" className="text-red-500 hover:text-red-400 underline">InstaCal</Link>,
                     creating content for social media, and trying to maintain
-                    a social life. My finish time was 13:54:29. Not elite. But
+                    a social life. Not elite. But
                     I crossed that finish line, and so can you.
                   </p>
                   <p className="text-gray-300 text-lg leading-relaxed mb-4">
@@ -979,7 +979,7 @@ export default function NineToFiveIronman() {
                   Was it perfect? No. I missed sessions. I had weeks where
                   work was insane and I trained 8 hours instead of 14. I had
                   weekends where I chose to see friends instead of doing my
-                  long ride. And I still finished in 13:54:29. Consistency
+                  long ride. And I still finished. Consistency
                   over perfection. Always.
                 </p>
               </div>

@@ -1072,7 +1072,7 @@ export default function RaceDayNutritionGuide() {
                 </p>
 
                 <h3 className="text-xl font-bold text-white mt-8 mb-4">
-                  Ironman Wisconsin (13:54:29)
+                  Ironman Wisconsin
                 </h3>
                 <div className="space-y-4 my-6">
                   {[

@@ -108,7 +108,7 @@ export default async function Image() {
             {[
               { number: "140.6mi", label: "Ironman" },
               { number: "100mi", label: "Ultra" },
-              { number: "13:54", label: "IM PR" },
+              { number: "15+", label: "Races" },
             ].map((stat) => (
               <div
                 key={stat.label}

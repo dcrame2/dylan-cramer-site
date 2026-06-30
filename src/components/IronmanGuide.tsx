@@ -175,8 +175,7 @@ export default function IronmanGuide() {
             className="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl"
           >
             Your complete guide to finishing your first Ironman. From someone who
-            works a 9-5, built an app, and still crossed the finish line in
-            13:54:29.
+            works a 9-5, built an app, and still crossed the finish line.
           </motion.p>
           <motion.div
             initial={{ opacity: 0 }}
@@ -308,8 +307,7 @@ export default function IronmanGuide() {
                   I&apos;m not a professional athlete. I work a full-time 9-5 as
                   a software developer. I built and launched an app (<Link href="/instacal" className="text-red-500 hover:text-red-400 underline">InstaCal</Link>)
                   during my training. I create content on the side. I still found
-                  time to train for and finish Ironman Wisconsin in 13 hours, 54
-                  minutes, and 29 seconds.
+                  time to train for and finish Ironman Wisconsin.
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   The people on the Ironman course are not all chiseled
@@ -989,13 +987,12 @@ export default function IronmanGuide() {
                 <SectionImage
                   src="/images/gallery/ironman-final.jpg"
                   alt="Dylan finishing Ironman Wisconsin"
-                  caption="The Finish Line - 13:54:29"
+                  caption="The Finish Line"
                   imagePosition="top"
                 />
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
                   These are the specific lessons I learned finishing Ironman
-                  Wisconsin in{" "}
-                  <span className="text-white font-semibold">13:54:29</span>.
+                  Wisconsin.
                   Not generic advice. These are things I wish someone had told
                   me.
                 </p>

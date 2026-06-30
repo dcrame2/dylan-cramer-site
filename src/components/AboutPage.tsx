@@ -17,7 +17,7 @@ const timeline = [
   {
     year: "2025",
     title: "Ironman Wisconsin",
-    detail: "13:54:29. Full 140.6. Everything changed.",
+    detail: "Full 140.6. Everything changed.",
     icon: "IM",
   },
   {
@@ -110,7 +110,7 @@ const stats = [
   { value: "15+", label: "Races Finished", suffix: "" },
   { value: "100", label: "Longest Run (mi)", suffix: "" },
   { value: "140.6", label: "Full Ironman", suffix: "" },
-  { value: "13:54", label: "Ironman PR", suffix: "" },
+  { value: "50", label: "Mile Ultra", suffix: "" },
   { value: "50K", label: "Winter Ultra", suffix: "" },
   { value: "1", label: "App Shipped", suffix: "" },
 ];
@@ -255,8 +255,7 @@ export default function AboutPage() {
                 Then came{" "}
                 <span className="text-white font-semibold">Ironman Wisconsin</span>.
                 140.6 miles. 2.4 mile swim, 112 on the bike, full marathon to close it out.
-                Crossed the line in <span className="text-red-500 font-semibold">13:54:29</span>{" "}
-                after 14 hours of racing through Madison. Now I&apos;m training
+                A full day of racing through Madison, and I crossed the line a finisher. Now I&apos;m training
                 for <span className="text-red-500 font-semibold">Ironman California</span>{" "}
                 in October 2026 and documenting every step of the way.
               </p>
