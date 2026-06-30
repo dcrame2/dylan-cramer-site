@@ -30,12 +30,12 @@ const featured = [
   },
 ];
 
-export default function HubResources() {
+export default function ResourcesTeaser() {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section ref={ref} className="relative py-28 px-6 overflow-hidden">
+    <section id="playbook" ref={ref} className="relative py-28 px-6 overflow-hidden scroll-mt-24">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-red-600/50 to-transparent" />
 
       <div className="max-w-7xl mx-auto">

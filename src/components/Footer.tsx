@@ -8,7 +8,6 @@ const footerNav = [
   { href: "/about", label: "About" },
   { href: "/gallery", label: "Gallery" },
   { href: "/instacal", label: "My App" },
-  { href: "/hub", label: "Hub" },
   { href: "/resources", label: "Resources" },
   { href: "/connect", label: "Connect" },
 ];

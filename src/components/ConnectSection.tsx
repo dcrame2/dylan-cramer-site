@@ -30,7 +30,7 @@ export default function ConnectSection() {
   }
 
   return (
-    <section id="connect" ref={ref} className="relative py-32 px-6 overflow-hidden">
+    <section id="connect" ref={ref} className="relative py-32 px-6 overflow-hidden scroll-mt-24">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-red-600/50 to-transparent" />
 
       {/* Background effects */}

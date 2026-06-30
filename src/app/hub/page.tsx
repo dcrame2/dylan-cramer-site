@@ -1,27 +1,7 @@
-import type { Metadata } from "next";
-import Navigation from "@/components/Navigation";
-import HubPage from "@/components/HubPage";
-import Footer from "@/components/Footer";
+import { redirect } from "next/navigation";
 
-export const metadata: Metadata = {
-  title: "Dylan Cramer | The Hub",
-  description:
-    "The front door to everything Dylan Cramer — Ironman athlete, ultrarunner, developer, and creator. Get InstaCal, grab the free training guides, and join the email crew.",
-  openGraph: {
-    title: "Dylan Cramer | The Hub",
-    description:
-      "Ironman · Ultrarunner · Builder · Creator. Get InstaCal, the free training guides, and join the crew.",
-    type: "website",
-    images: ["/og-image.png"],
-  },
-};
-
+// The hub was merged into the homepage. Keep this route alive so any shared
+// /hub link (e.g. an Instagram bio link) lands on the combined home page.
 export default function Hub() {
-  return (
-    <main className="bg-black">
-      <Navigation />
-      <HubPage />
-      <Footer />
-    </main>
-  );
+  redirect("/");
 }

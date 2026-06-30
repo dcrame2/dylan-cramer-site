@@ -201,10 +201,10 @@ export default function InstacalPage() {
                   href='https://apps.apple.com/us/app/instacal/id6743951306'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='group flex items-center gap-3 px-8 py-4 bg-white text-black font-bold text-sm uppercase tracking-wider hover:bg-red-500 hover:text-white transition-all duration-300 rounded-xl animate-pulse-red'
+                  className='group flex items-center gap-3 px-4 py-2.5 md:px-8 md:py-4 bg-white text-black font-bold text-sm uppercase tracking-wider hover:bg-red-500 hover:text-white transition-all duration-300 rounded-xl animate-pulse-red'
                 >
                   <svg
-                    className='w-7 h-7'
+                    className='w-5 h-5 md:w-7 md:h-7'
                     fill='currentColor'
                     viewBox='0 0 24 24'
                   >
@@ -216,10 +216,10 @@ export default function InstacalPage() {
                   href='https://play.google.com/store/apps/details?id=com.digitaldelight.InstaCal'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='group flex items-center gap-3 px-8 py-4 border-2 border-white/20 text-white font-bold text-sm uppercase tracking-wider hover:border-red-500 hover:text-red-500 transition-all duration-300 rounded-xl'
+                  className='group flex items-center gap-3 px-4 py-2.5 md:px-8 md:py-4 border-2 border-white/20 text-white font-bold text-sm uppercase tracking-wider hover:border-red-500 hover:text-red-500 transition-all duration-300 rounded-xl'
                 >
                   <svg
-                    className='w-7 h-7'
+                    className='w-5 h-5 md:w-7 md:h-7'
                     fill='currentColor'
                     viewBox='0 0 24 24'
                   >
@@ -744,10 +744,10 @@ export default function InstacalPage() {
                 href='https://apps.apple.com/us/app/instacal/id6743951306'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='group flex items-center gap-3 px-10 py-5 bg-white text-black font-bold text-base uppercase tracking-wider hover:bg-red-500 hover:text-white transition-all duration-300 rounded-xl animate-pulse-red'
+                className='group flex items-center gap-3 px-5 py-3 md:px-10 md:py-5 bg-white text-black font-bold text-sm md:text-base uppercase tracking-wider hover:bg-red-500 hover:text-white transition-all duration-300 rounded-xl animate-pulse-red'
               >
                 <svg
-                  className='w-7 h-7'
+                  className='w-5 h-5 md:w-7 md:h-7'
                   fill='currentColor'
                   viewBox='0 0 24 24'
                 >
@@ -759,10 +759,10 @@ export default function InstacalPage() {
                 href='https://play.google.com/store/apps/details?id=com.digitaldelight.InstaCal'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='group flex items-center gap-3 px-10 py-5 border-2 border-white/20 text-white font-bold text-base uppercase tracking-wider hover:border-red-500 hover:text-red-500 transition-all duration-300 rounded-xl'
+                className='group flex items-center gap-3 px-5 py-3 md:px-10 md:py-5 border-2 border-white/20 text-white font-bold text-sm md:text-base uppercase tracking-wider hover:border-red-500 hover:text-red-500 transition-all duration-300 rounded-xl'
               >
                 <svg
-                  className='w-7 h-7'
+                  className='w-5 h-5 md:w-7 md:h-7'
                   fill='currentColor'
                   viewBox='0 0 24 24'
                 >
