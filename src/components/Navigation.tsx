@@ -9,7 +9,6 @@ const navLinks = [
   { href: "/about", label: "About" },
   { href: "/gallery", label: "Gallery" },
   { href: "/instacal", label: "InstaCal" },
-  { href: "/services/portfolio", label: "Portfolio" },
 ];
 
 const resourceLinks = [

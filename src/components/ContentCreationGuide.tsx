@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 /* ── data ─────────────────────────────────────────────── */
 
@@ -280,7 +281,7 @@ export default function ContentCreationGuide() {
                     maybe my friends to watch. Instead, I connected with
                     thousands of people on the same path. I got asked to
                     collaborate with brands. I built an audience that now
-                    supports my app, InstaCal. And most importantly, I have a
+                    supports my app, <Link href="/instacal" className="text-red-500 hover:text-red-400 underline">InstaCal</Link>. And most importantly, I have a
                     library of memories from the most transformative period of
                     my life.
                   </p>
@@ -878,7 +879,7 @@ export default function ContentCreationGuide() {
                       path: "Your Own Products",
                       threshold: "Dedicated audience",
                       detail:
-                        "Build something for your audience. I built InstaCal. You could create a training journal, a nutrition guide, merchandise, or a course. Your audience already trusts you, so give them something valuable to buy.",
+                        <>Build something for your audience. I built <Link href="/instacal" className="text-red-500 hover:text-red-400 underline">InstaCal</Link>. You could create a training journal, a nutrition guide, merchandise, or a course. Your audience already trusts you, so give them something valuable to buy.</>
                     },
                     {
                       path: "Race/Event Partnerships",

@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 /* ── data ─────────────────────────────────────────────── */
 
@@ -287,7 +288,7 @@ export default function NineToFiveIronman() {
                   </p>
                   <p className="text-gray-300 text-lg leading-relaxed mb-4">
                     I trained for Ironman Wisconsin while working as a
-                    full-time software developer, building and launching InstaCal,
+                    full-time software developer, building and launching <Link href="/instacal" className="text-red-500 hover:text-red-400 underline">InstaCal</Link>,
                     creating content for social media, and trying to maintain
                     a social life. My finish time was 13:54:29. Not elite. But
                     I crossed that finish line, and so can you.
@@ -900,7 +901,7 @@ export default function NineToFiveIronman() {
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
                   Here&apos;s exactly what a peak training week looked like for
                   me while working full time as a software developer and
-                  building InstaCal on the side. This is not idealized. This
+                  building <Link href="/instacal" className="text-red-500 hover:text-red-400 underline">InstaCal</Link> on the side. This is not idealized. This
                   is what actually happened.
                 </p>
                 <div className="space-y-4 my-6">
@@ -939,7 +940,7 @@ export default function NineToFiveIronman() {
                       num: "06",
                       title: "7:00-8:30 PM: Dinner, content work, rest",
                       detail:
-                        "Eat dinner. Edit a video or work on InstaCal for 30-45 min. Spend time with people. Phone goes down by 8:30.",
+                        <>Eat dinner. Edit a video or work on <Link href="/instacal" className="text-red-500 hover:text-red-400 underline">InstaCal</Link> for 30-45 min. Spend time with people. Phone goes down by 8:30.</>,
                     },
                     {
                       num: "07",

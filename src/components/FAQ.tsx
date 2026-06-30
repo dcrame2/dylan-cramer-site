@@ -25,16 +25,6 @@ const faqs = [
       "Ironman Wisconsin (13:54:29), Tunnel Hill 100 mile ultra, Chicago Triathlon, multiple 50-milers, and I'm currently training for Ironman Lake Placid in July 2026.",
   },
   {
-    question: "Do you build websites and apps?",
-    answer:
-      "Yes! I build websites, web apps, and mobile apps for creators, athletes, and small businesses. Email dcrame2@gmail.com to get started.",
-  },
-  {
-    question: "What kind of projects can you build?",
-    answer:
-      "Anything from a simple landing page to a full web app or mobile app on iOS and Android. Custom design, mobile responsive, SEO optimized, and deployed live. I build with Next.js, React Native, and modern tools.",
-  },
-  {
     question: "Do you do coaching or consulting?",
     answer:
       "Not currently offering formal coaching, but I share everything I learn about training, building, and creating through my content. Check out the free resources section for guides.",

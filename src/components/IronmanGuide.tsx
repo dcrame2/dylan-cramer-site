@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 /* ── data ─────────────────────────────────────────────── */
 
@@ -305,7 +306,7 @@ export default function IronmanGuide() {
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
                   I&apos;m not a professional athlete. I work a full-time 9-5 as
-                  a software developer. I built and launched an app (InstaCal)
+                  a software developer. I built and launched an app (<Link href="/instacal" className="text-red-500 hover:text-red-400 underline">InstaCal</Link>)
                   during my training. I create content on the side. I still found
                   time to train for and finish Ironman Wisconsin in 13 hours, 54
                   minutes, and 29 seconds.

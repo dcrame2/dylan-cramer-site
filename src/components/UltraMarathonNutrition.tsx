@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 /* ── data ─────────────────────────────────────────────── */
 
@@ -580,7 +581,9 @@ export default function UltraMarathonNutrition() {
                   headlamp, etc. A good crew saves you time and mental energy. If
                   you&apos;re running self-supported, use drop bags strategically.
                   Pack your favorite foods, a backup headlamp, extra socks, and
-                  anything the aid station might not have.
+                  anything the aid station might not have. If you need help
+                  figuring out what to pack, check out my{" "}
+                  <Link href="/resources/ultramarathon-packing-list" className="text-red-500 hover:text-red-400 underline">ultramarathon packing list</Link>.
                 </p>
                 <Tip>
                   Make a laminated index card listing your nutrition plan for
@@ -1062,7 +1065,9 @@ export default function UltraMarathonNutrition() {
                   The best nutrition plan is the one you&apos;ve practiced 20+
                   times in training. There are no shortcuts here. Put in the
                   gut training during your long runs and your race day stomach
-                  will thank you.
+                  will thank you. Once your nutrition is dialed in, make sure
+                  the rest of your gear is too — check out my{" "}
+                  <Link href="/resources/ultramarathon-packing-list" className="text-red-500 hover:text-red-400 underline">complete ultramarathon packing list</Link>.
                 </Tip>
               </div>
 
