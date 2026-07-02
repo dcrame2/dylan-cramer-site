@@ -10,6 +10,7 @@ const footerNav = [
   { href: "/instacal", label: "My App" },
   { href: "/resources", label: "Resources" },
   { href: "/connect", label: "Connect" },
+  { href: "/links", label: "All My Links" },
 ];
 
 export default function Footer() {

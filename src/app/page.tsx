@@ -5,6 +5,7 @@ import ContentSection from "@/components/ContentSection";
 import InstaCal from "@/components/InstaCal";
 import ResourcesTeaser from "@/components/ResourcesTeaser";
 import FAQ from "@/components/FAQ";
+import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <ResourcesTeaser />
       <ContentSection />
       <FAQ />
+      <FinalCTA />
       <Footer />
     </main>
   );
